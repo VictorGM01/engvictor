@@ -29,19 +29,20 @@
     color: $branco;
     text-align: center;
     font-weight: 400;
+    margin: 1rem 0;
   }
 
   &__links {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     height: 29px;
   }
 
   &__links a img {
-    width: 1.85rem;
-    height: 1.85rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   &__sobre {
@@ -50,7 +51,7 @@
     line-height: 28px;
     color: $branco;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     width: 296px;
   }
 
