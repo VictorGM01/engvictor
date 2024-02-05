@@ -11,7 +11,14 @@ export default function Header() {
         <label htmlFor="menu-hamburger" className={styles.menuHamburgerLabel}>
           <img src={Menu} alt="Menu" />
         </label>
-        <img src={Logo} alt="Logo"/>
+        <ul>
+          <li><a href="#">Sobre</a> <hr /></li>
+          <li><a href="#">Experiências</a> <hr /></li>
+          <li><a href="#">Serviços</a> <hr /></li>
+          <li><a href="#">Parceiros</a> <hr /></li>
+          <li><a href="#">Tecnologias</a> <hr /></li>
+        </ul>
+        <img src={Logo} alt="Logo com as iniciais VGM"/>
       </div>
     </header>
   );

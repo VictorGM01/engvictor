@@ -1,3 +1,5 @@
+@use '../../../styles/variables.scss' as *;
+
 .header {
   display: flex;
   align-items: center;
@@ -11,9 +13,56 @@
     display: none;
   }
 
+  input:checked ~ label > img {
+    content: url('../../../assets/icons/close.svg');
+    width: 25px;
+    height: 26px;
+    margin-left: .2rem;
+  }
+
+  input:checked ~ ul {
+    display: flex;
+  }
+
   label img {
     width: 2rem;
     height: 1.25rem;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    margin-top: 2rem;
+    gap: 2rem;
+    top: 6.875rem;
+    background-color: $azul-escuro;
+    width: 100%;
+    padding: 2rem;
+    margin: 0;
+    margin-left: -2rem;
+    height: 31.1875rem;
+  }
+
+  ul li {
+    display: flex;
+    flex-direction: column;
+    height: 38px;
+  }
+
+  ul li a {
+    color: $branco;
+    font-size: 1.28125rem;
+    text-decoration: none;
+    font-weight: 200;
+  }
+
+  ul li hr {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: $ciano-claro;
   }
 
   img {
@@ -23,6 +72,7 @@
 
   div {
     width: calc(50% + 2rem);
+    height: 6.875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
