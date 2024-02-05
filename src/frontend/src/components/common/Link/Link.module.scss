@@ -1,0 +1,11 @@
+@use '../../../styles/variables.scss' as *;
+
+.link {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  color: $ciano-extra-claro;
+  border-left: 4px solid $ciano-extra-claro;
+  font-size: 2rem;
+  font-weight: 200;
+}
