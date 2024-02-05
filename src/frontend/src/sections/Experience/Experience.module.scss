@@ -1,0 +1,47 @@
+@use '../../styles/variables.scss' as *;
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 2rem 0 2rem;
+  height: 69.5rem;
+  background-color: $azul-escuro;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 2rem;
+  }
+
+  &__container ul li div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: $branco;
+    gap: 1rem;
+    font-size: 1.28125rem;
+    font-weight: 400;
+    line-height: 31px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      border-top: 1px solid $ciano-claro;
+      border-bottom: 1px solid $ciano-claro;
+      padding: 1rem 0;
+    }
+  }
+
+  &__container ul li div img {
+    width: 73px;
+  }
+}
