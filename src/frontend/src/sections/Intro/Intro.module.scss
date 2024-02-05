@@ -1,0 +1,22 @@
+@use '../../styles/_variables.scss' as *;
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31.25rem;
+  padding: 5.125rem 3.25rem;
+  background-color: $azul-escuro;
+
+  p {
+    font-size: 2rem;
+    color: $branco;
+    font-weight: 200;
+    line-height: 48px;
+  }
+
+  p span {
+    font-weight: 700;
+    color: $ciano-claro;
+  }
+}
