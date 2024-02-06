@@ -16,7 +16,15 @@ export default function Experience() {
           </p>
         </div>
         <article className={styles.experience__card}>
-          {experience.descricao}
+          <h1>{experience.cargo}</h1>
+          <p>{experience.dataInicio} - {experience.dataFim}</p>
+          <p className={styles.experience__desc}>{experience.descricao}</p>
+          <p>Tecnologias utilizadas:</p>
+          <section>
+            {experience.tecnologias.map((tecnologia) => (
+              <img src={`/${tecnologia}.svg`} alt={tecnologia} key={tecnologia} />
+            ))}
+          </section>
         </article>
         </label>
       </li>
