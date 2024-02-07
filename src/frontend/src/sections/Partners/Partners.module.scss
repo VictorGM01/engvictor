@@ -1,0 +1,33 @@
+@use '../../styles/_variables.scss' as *;
+
+
+.partners {
+  padding: 2rem;
+  background-color: $azul-escuro;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    margin-top: 4.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__container .swiper{
+    width: 90%;
+  }
+
+  &__container img {
+    width: 100%;
+    max-height: 3rem;
+    margin-bottom: 4.875rem;
+  }
+
+  // edita bullet points do swiper
+  .pagination {
+    background-color: $ciano-extra-claro !important;
+  }
+}
+

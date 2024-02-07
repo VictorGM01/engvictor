@@ -21,3 +21,17 @@ h2 {
 h3 {
   font-size: 1.5625rem;
 }
+
+.pagination {
+  background-color: v.$azul-marinho !important;
+  width: .625rem;
+  height: .625rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 0 0.375rem;
+}
+
+.pagination-active {
+  background-color: v.$ciano-claro !important;
+}
