@@ -6,6 +6,7 @@ import Services from "../../sections/Services/Services";
 import Partners from "../../sections/Partners/Partners";
 import ProjectsPreview from "../../sections/ProjectsPreview/ProjectsPreview";
 import Technologies from "../../sections/Technologies/Technologies";
+import Contact from "../../sections/Contact/Contact";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Partners />
       <ProjectsPreview />
       <Technologies />
+      <Contact />
     </>
   );
 }
