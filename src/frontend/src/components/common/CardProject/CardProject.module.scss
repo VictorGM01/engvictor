@@ -1,0 +1,61 @@
+@use '../../../styles/variables.scss' as *;
+
+.card {
+  background-color: $ciano-medio;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9.5625rem;
+    border-radius: 10px;
+    border: 1px solid $ciano-extra-claro;
+
+    img {
+      min-width: 80%;
+      max-width: 95%;
+      border-radius: 10px;
+    }
+  }
+
+  h3 {
+    font-size: 1.5625rem;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: .25rem;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  &__infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    color: $branco;
+    font-size: .75rem;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: .25rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "imagem": "/logo-athena.png",
+        "nome": "Athena Web",
+        "descricao": "Este projeto, fruto da colaboração entre Inteli e Nova Escola, visa <strong>apoiar professores da rede pública no diagnóstico da aprendizagem dos alunos e recomendar conteúdos pedagógicos</strong>. A Athena é uma aplicação web que gerencia turmas, avaliações e alunos, identificando dificuldades através dos dados das avaliações e fornecendo gráficos e planos de aulas para acompanhamento e recomendações.",
+        "link": "https://cyber-sec-info.herokuapp.com/",
+        "data": "25/06/2023",
+        "commits": 389
+    },
+    {
+        "id": 2,
+        "imagem": "/logo-csi.png",
+        "nome": "Cyber Sec Info",
+        "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo.",
+        "link": "https://cyber-sec-info.herokuapp.com/",
+        "data": "01/01/2023",
+        "commits": 808
+    }
+]
