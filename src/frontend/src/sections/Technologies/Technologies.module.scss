@@ -1,0 +1,52 @@
+@use '../../styles/variables.scss' as *;
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  min-height: 60.5625rem;
+  background-color: $azul-escuro;
+
+  // o primeiro div precisa de um margin bottom de 1 rem:
+  & > div:first-child {
+    margin-bottom: 1rem;
+  }
+
+  &__area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  &__area__title {
+    color: $branco;
+    font-size: 1.5625rem;
+    line-height: 38px;
+    margin-bottom: 1rem;
+  }
+
+  &__area__logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 80%;
+
+    & > img {
+      transition: transform 0.2s;
+    }
+
+    & > img:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  hr {
+    width: 80%;
+    text-align: left;
+    border: 0.0625rem solid $ciano-claro;
+    margin: 0;
+  }
+}

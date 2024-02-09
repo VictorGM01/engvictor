@@ -1,0 +1,20 @@
+@use '../../../styles/variables.scss' as *;
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 8px 27px;
+  height: 3rem;
+  background-color: $ciano-claro;
+  color: $branco;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 1px 1px 4px rgba(82, 142, 150, 0.5);
+
+  &:hover {
+    background-color: $ciano-medio;
+  }
+}

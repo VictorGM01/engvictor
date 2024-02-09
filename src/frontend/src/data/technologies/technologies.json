@@ -1,0 +1,26 @@
+[
+    {
+        "area": "Banco de Dados",
+        "tecnologias": ["postgresql", "mysql", "sqlserver", "sqlite", "mongodb", "redis", "memcached"]
+    },
+    {
+        "area": "Back-end",
+        "tecnologias": ["node", "express", "python", "django", "adonis"]
+    },
+    {
+        "area": "Front-end",
+        "tecnologias": ["html", "css", "js", "typescript", "react", "figma"]
+    },
+    {
+        "area": "Testes",
+        "tecnologias": ["jest", "pytest", "cypress", "postman"]
+    },
+    {
+        "area": "Dados",
+        "tecnologias": ["pandas", "numpy", "seaborn", "sklearn", "pycaret", "scrapy", "spark"]
+    },
+    {
+        "area": "Arquitetura",
+        "tecnologias": ["git", "github", "bitbucket", "airflow", "aws", "linux", "databricks", "azure"]
+    }
+]

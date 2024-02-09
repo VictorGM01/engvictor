@@ -1,0 +1,65 @@
+@use '../../styles/variables.scss' as *;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  background-color: $azul-marinho;
+  gap: 2rem;
+
+  span {
+    color: $branco;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 28px;
+
+    strong {
+      font-weight: 700;
+      color: $ciano-extra-claro;
+    }
+  }
+
+  label {
+    color: $branco !important;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  input {
+    width: 100%;
+    border: 2px solid #3EA1B0;
+    border-radius: 100px;
+    margin-top: 0.5rem;
+    min-height: 2.625rem;
+    background-color: #1A4758 !important;
+    color: $branco;
+
+    &::placeholder {
+      color: $branco;
+      opacity: .5;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    border: 2px solid #3EA1B0;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    min-height: 8rem;
+    background-color: #1A4758 !important;
+    resize: none;
+    color: $branco;
+
+    &::placeholder {
+      color: $branco;
+      opacity: .5;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
