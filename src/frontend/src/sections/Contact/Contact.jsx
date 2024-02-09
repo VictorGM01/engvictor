@@ -8,9 +8,9 @@ export default function Contact() {
   return (
     <section className={styles.contact} id="contact">
       <Link nome='Entre em contato' />
-      <p>
+      <span>
         Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta entrar em contato comigo</strong> por meio do fórmulario abaixo!
-      </p>
+      </span>
       <Form
         name="basic"
         initialValues={{ remember: true }}
