@@ -29,7 +29,7 @@ export default function About() {
         <p className={styles.about__sobre}>
           <span>Engenheiro de Software</span> e entusiasta da <span>filosofia do código limpo</span> (Clean Code). Minha experiência profissional inclui o desenvolvimento de <span>aplicações web completas</span>, incluindo back-end, front-end e dados. Possuo conhecimento prático em Python, Django, JavaScript, TypeScript, Node.JS, AdonisJS, e trabalho com bancos de dados como MySQL, PostgreSQL e SQL Server. Além disso, tenho experiência com <span>tecnologias front-end</span>, incluindo HTML5, CSS3, e ReactJS.
         </p>
-        <Button nome="Entre em contato" link="#" />
+        <Button nome="Entre em contato" link="#contact" />
       </div>
     </section>
   )
