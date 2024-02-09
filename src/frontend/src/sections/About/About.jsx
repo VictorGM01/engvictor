@@ -9,7 +9,7 @@ import Button from "../../components/common/Button/Button"
 
 export default function About() {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <Link nome="Sobre" />
 
       <div className={styles.about__container}>

@@ -6,8 +6,8 @@ import styles from './Contact.module.scss';
 
 export default function Contact() {
   return (
-    <section className={styles.contact}>
-      <Link nome='Contato' />
+    <section className={styles.contact} id="contact">
+      <Link nome='Entre em contato' />
       <p>
         Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta entrar em contato comigo</strong> por meio do fórmulario abaixo!
       </p>

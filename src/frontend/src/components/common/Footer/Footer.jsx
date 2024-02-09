@@ -2,7 +2,7 @@ import styles from './Footer.module.scss';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <div className={styles.footer__Logos}>
         <a href="https://github.com/VictorGM01">
           <img src="/github-footerm.png" alt="Logo do github" />

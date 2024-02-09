@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 
 export default function ProjectsPreview() {
   return (
-    <section className={styles.projectsPreview}>
+    <section className={styles.projectsPreview} id="projects">
       <LinkSection nome='Projects'/>
       {projects.map((project, index) => (
         <CardProject key={index} project={project} />

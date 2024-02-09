@@ -31,7 +31,7 @@ export default function Experience() {
     ))}
 
   return (
-    <section className={styles.experience}>
+    <section className={styles.experience} id="experience">
       <Link nome="Experiências" />
       <div className={styles.experience__container}>
         <ul>

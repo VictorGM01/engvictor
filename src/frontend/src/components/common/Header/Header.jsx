@@ -12,11 +12,12 @@ export default function Header() {
           <img src={Menu} alt="Menu" />
         </label>
         <ul>
-          <li><a href="#">Sobre</a> <hr /></li>
-          <li><a href="#">Experiências</a> <hr /></li>
-          <li><a href="#">Serviços</a> <hr /></li>
-          <li><a href="#">Parceiros</a> <hr /></li>
-          <li><a href="#">Tecnologias</a> <hr /></li>
+          <li><a href="#about">Sobre</a> <hr /></li>
+          <li><a href="#experience">Experiências</a> <hr /></li>
+          <li><a href="#services">Serviços</a> <hr /></li>
+          <li><a href="#partners">Parceiros</a> <hr /></li>
+          <li><a href="#projects">Projetos</a> <hr /></li>
+          <li><a href="#technologies">Tecnologias</a> <hr /></li>
         </ul>
         <img src={Logo} alt="Logo com as iniciais VGM"/>
       </div>

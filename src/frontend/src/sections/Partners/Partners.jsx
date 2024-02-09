@@ -8,7 +8,7 @@ import 'swiper/css/navigation'
 
 export default function Partners() {
   return (
-    <section className={styles.partners}>
+    <section className={styles.partners} id="partners">
       <Link nome='Parceiros' />
       <div className={styles.partners__container}>
         <Swiper

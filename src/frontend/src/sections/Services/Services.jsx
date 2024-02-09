@@ -5,7 +5,7 @@ import services from '../../data/services/services.json';
 
 export default function Services() {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="services">
       <Link nome='Serviços'/>
       {services.map((service, index) => (
         <div key={index} className={styles.services__item}>
