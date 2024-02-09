@@ -1,0 +1,37 @@
+@use '../../../styles/variables.scss' as *;
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 11.25rem;
+  background: rgb(21, 58, 77);
+  background: linear-gradient(180deg, rgba(21, 58, 77, 1) 0%, rgba(11, 30, 60, 1) 54%, rgba(0, 2, 43, 1) 100%);
+  padding: 2rem;
+
+
+  &__Logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $branco;
+    font-size: 0.75rem;
+    font-weight: 300;
+    gap: 1.5rem;
+
+    img {
+      width: 4rem;
+    }
+
+    p {
+      margin-bottom: .75rem;
+    }
+  }
+}

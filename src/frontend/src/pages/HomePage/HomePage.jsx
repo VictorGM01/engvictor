@@ -7,6 +7,7 @@ import Partners from "../../sections/Partners/Partners";
 import ProjectsPreview from "../../sections/ProjectsPreview/ProjectsPreview";
 import Technologies from "../../sections/Technologies/Technologies";
 import Contact from "../../sections/Contact/Contact";
+import Footer from "../../components/common/Footer/Footer";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <ProjectsPreview />
       <Technologies />
       <Contact />
+      <Footer />
     </>
   );
 }
