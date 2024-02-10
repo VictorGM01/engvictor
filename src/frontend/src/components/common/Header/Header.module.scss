@@ -78,3 +78,64 @@
     align-items: center;
   }
 }
+
+// responsivo para desktop e tablet:
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input, label {
+      display: none;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 7rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: inherit;
+      width: auto;
+      flex-direction: row;
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      gap: 2rem;
+      height: auto;
+    }
+
+    ul li {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      transition: all 0.2s;
+
+      a {
+        font-size: 1.125rem;
+        line-height: 27px;
+        font-weight: 400;
+      }
+
+      &:hover {
+        border-bottom: 2px solid $ciano-extra-claro;
+        padding: 0 0 4px 0;
+        a {
+          color: $ciano-claro;
+        }
+      }
+    }
+
+    img:hover {
+      transition: all 1s;
+      transform: rotate(360deg);
+    }
+  }
+}
