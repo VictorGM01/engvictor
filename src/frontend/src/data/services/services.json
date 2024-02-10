@@ -1,25 +1,31 @@
 [
     {
+        "imagem": "service-1",
         "servico": "Desenvolvimento de Aplicações Web",
         "descricao": "Realizo o desenvolvimento, de ponta a ponta, de sistemas para a web."
     },
     {
+        "imagem": "service-2",
         "servico": "Desenvolvimento de Banco de Dados",
         "descricao": "Modelo e implemento projetos de banco de dados para empresas."
     },
     {
-        "servico": "Criação de modelos de Machine Learning",
-        "descricao": "Aplico modelos de aprendizagem de máquina para diversas finalidades, incluindo classificação, agrupamento, aprendizado não; supervisionado e afins."
-    },
-    {
+        "imagem": "service-5",
         "servico": "Automação robótica de Processos (RPA)",
         "descricao": "Desenvolvo sistemas de automação para tarefas repetitivas, custosas, cansativas e/ou complexas."
     },
     {
+        "imagem": "service-3",
+        "servico": "Modelos de Machine Learning",
+        "descricao": "Aplico modelos de aprendizagem de máquina para diversas finalidades, incluindo classificação, agrupamento, aprendizado não supervisionado e afins."
+    },
+    {
+        "imagem": "service-4",
         "servico": "Engenharia de Dados",
         "descricao": "Realizo a coleta e a transformação de dados para a adequação aos mais diversos sistemas e projetos da empresa."
     },
     {
+        "imagem": "service-6",
         "servico": "Otimização de Sistemas",
         "descricao": "Melhoro o desempenho de sistemas por meio de refatorações, correções de erros e ajustes estruturais."
     }
