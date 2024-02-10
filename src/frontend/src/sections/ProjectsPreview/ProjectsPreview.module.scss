@@ -10,6 +10,12 @@
   gap: 2rem;
   color: $branco;
 
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   &__link {
     display: flex;
     justify-content: flex-end;
@@ -20,6 +26,24 @@
 
     &:hover {
       color: $ciano-claro;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .projectsPreview {
+    padding: 2rem 4rem;
+    min-height: 48rem;
+
+    &__item {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 4rem;
+      margin-top: 2rem;
+    }
+
+    &__link {
+      justify-content: flex-start;
     }
   }
 }
