@@ -20,3 +20,10 @@
     color: $ciano-claro;
   }
 }
+
+@media (min-width: 768px) {
+  p {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+}
