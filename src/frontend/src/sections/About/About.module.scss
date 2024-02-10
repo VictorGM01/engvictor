@@ -5,8 +5,12 @@
   flex-direction: column;
   width: 100%;
   padding: 2rem 2rem 0 2rem;
-  height: 60.0625rem;
+  min-height: 60.0625rem;
   background-color: $azul-marinho;
+
+  &__grafico {
+    display: none;
+  }
 
   &__container {
     display: flex;
@@ -17,8 +21,17 @@
     margin-top: 2rem;
     padding: 0 1.25rem 0 1.25rem;
   }
+
+  &__container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   
-  &__container img {
+  &__container section img {
+    text-align: center;
     width: 9rem;
     height: 9rem;
   }
@@ -34,13 +47,18 @@
 
   &__links {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    flex-direction: column;
     margin-bottom: 1.5rem;
-    height: 29px;
   }
 
-  &__links a img {
+  &__links div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__links div a img {
     width: 2.5rem;
     height: 2.5rem;
   }
@@ -57,5 +75,70 @@
 
   &__sobre span {
     color: $ciano-extra-claro;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    min-height: 42rem;
+    padding: 2rem 4rem;
+
+    &__grafico {
+      display: block;
+      width: 12.5rem;
+      max-height: 42rem;
+      left: -20px;
+      position: absolute;
+    }
+
+    &__container {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 4rem;
+      padding-left: 9.8125rem;
+      padding-right: 4.25rem;
+    }
+
+    &__container section {
+      flex-direction: row;
+    }
+
+    &__container section img {
+      width: 12rem;
+      height: 12rem;
+    }
+
+    &__container_perfil {
+      gap: 48px;
+    }
+
+    &__nome {
+      font-size: 3rem;
+      line-height: 72px;
+    }
+
+    &__links div a img {
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    &__links div {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    &__container_sobre{
+      flex-direction: column !important;
+      align-items: flex-start;
+      margin-top: 48px;
+      width: 100%;
+
+      p {
+        width: 100%;
+        font-size: 1.28125rem;
+        line-height: 2.1rem;
+      }
+    }
   }
 }
