@@ -3,8 +3,8 @@ import { Navigation, Pagination } from 'swiper/modules';
 import styles from './Partners.module.scss';
 import Link from '../../components/common/Link/Link';
 import "swiper/swiper-bundle.css";
-import 'swiper/css/navigation'
-import 'swiper/css/navigation'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export default function Partners() {
   return (
@@ -13,8 +13,8 @@ export default function Partners() {
       <div className={styles.partners__container}>
         <Swiper
           modules={[Navigation, Pagination]}
+          spaceBetween={30}
           className={styles.swiper}
-          // edita cor da paginação
           pagination={{
             clickable: true,
             bulletClass: "pagination",
@@ -23,18 +23,31 @@ export default function Partners() {
               return `<span class="${className}"></span>`;
             },
           }}
-          >
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50
+            },
+          }}
+        >
           <SwiperSlide>
-            <div>
-              <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
-            </div>
+            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
           </SwiperSlide>
           <SwiperSlide>
             <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
           </SwiperSlide>
         </Swiper>
       </div>
-
     </section>
   );
 }

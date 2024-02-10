@@ -17,4 +17,14 @@
         "data": "01/01/2023",
         "commits": 808
     }
+    ,
+    {
+        "id": 3,
+        "imagem": "/logo-csi.png",
+        "nome": "Cyber Sec Info",
+        "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo.",
+        "link": "https://cyber-sec-info.herokuapp.com/",
+        "data": "01/01/2023",
+        "commits": 808
+    }
 ]
