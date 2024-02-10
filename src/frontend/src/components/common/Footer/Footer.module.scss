@@ -41,3 +41,24 @@
     }
   }
 }
+
+@media screen and (min-width: 768px){
+  .footer {
+    padding: 2.5rem 9rem;
+
+    &__Logos {
+      flex-direction: row;
+      gap: 2rem;
+    }
+
+    &__copy {
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 2rem;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
