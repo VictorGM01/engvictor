@@ -9,14 +9,17 @@ export default function Contact() {
     <section className={styles.contact} id="contact">
       <Link nome='Entre em contato' />
       <span>
-        Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta entrar em contato comigo</strong> por meio do fórmulario abaixo!
+        Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta preencher formulário abaixo!</strong>
       </span>
       <Form
         name="basic"
         initialValues={{ remember: true }}
         autoComplete="off"
         layout='vertical'
+        style={{padding: '0 6rem'}}
       >
+        <Form.Item>
+        <div className={styles.contact__formRow}>
         <Form.Item
           label="Nome"
           name="nome"
@@ -47,7 +50,8 @@ export default function Contact() {
         >
           <Input placeholder='Qual assunto do contato?'/>
         </Form.Item>
-
+        </div>
+        </Form.Item>
         <Form.Item
           label="Mensagem"
           name="mensagem"
