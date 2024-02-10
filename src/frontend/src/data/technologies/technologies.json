@@ -1,26 +1,32 @@
 [
     {
         "area": "Banco de Dados",
+        "imagem": "/banco-de-dados.png",
         "tecnologias": ["postgresql", "mysql", "sqlserver", "sqlite", "mongodb", "redis", "memcached"]
     },
     {
-        "area": "Back-end",
-        "tecnologias": ["node", "express", "python", "django", "adonis"]
-    },
-    {
         "area": "Front-end",
+        "imagem": "/front-end.png",
         "tecnologias": ["html", "css", "js", "typescript", "react", "figma"]
     },
     {
+        "area": "Back-end",
+        "imagem": "/back-end.png",
+        "tecnologias": ["node", "express", "python", "django", "adonis"]
+    },
+    {
         "area": "Testes",
+        "imagem": "/testes.png",
         "tecnologias": ["jest", "pytest", "cypress", "postman"]
     },
     {
         "area": "Dados",
+        "imagem": "/dados.png",
         "tecnologias": ["pandas", "numpy", "seaborn", "sklearn", "pycaret", "scrapy", "spark"]
     },
     {
         "area": "Arquitetura",
+        "imagem": "/arquitetura.png",
         "tecnologias": ["git", "github", "bitbucket", "airflow", "aws", "linux", "databricks", "azure"]
     }
 ]
