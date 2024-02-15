@@ -6,7 +6,7 @@ export default function CardProject({ project }) {
   };
   
   return (
-    <div className={styles.card}>
+    <a className={styles.card} href={project.link} target="_blank" rel="noreferrer">
       <div className={styles.card__image}>
         <img src={project.imagem} alt={project.nome} />
       </div>
@@ -24,6 +24,6 @@ export default function CardProject({ project }) {
           <span>{project.commits} commits</span>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
