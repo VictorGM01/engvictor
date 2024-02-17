@@ -34,17 +34,20 @@ export default function Partners() {
             },
           }}
         >
-          <SwiperSlide>
-            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
+          <SwiperSlide className={styles.partners__slide} title='V2 Consulting'>
+            <a href="https://v2consulting.com.br/" target="_blank" rel="noreferrer">
+              <img src="/v2-exp.png" alt="Logo da empresa parceira V2 Consulting" />
+            </a>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
+          <SwiperSlide className={styles.partners__slide} title='Sanus'>
+            <a href="https://www.sanus.tech/" target="_blank" rel="noreferrer">
+              <img src="/sanus.png" alt="Logo da empresa parceira Sanus" />
+            </a>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="/v2-exp.png" alt="Logo do parceiro V2 Consulting" />
+          <SwiperSlide className={styles.partners__slide} title='Grupo Lello'>
+            <a href="https://www.lello.com.br/" target="_blank" rel="noreferrer">
+              <img src="/lello.png" alt="Logo da empresa parceira Grupo Lello" />
+            </a>
           </SwiperSlide>
         </Swiper>
       </div>
