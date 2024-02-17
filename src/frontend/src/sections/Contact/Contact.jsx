@@ -37,9 +37,9 @@ export default function Contact() {
         initialValues={{ remember: true }}
         autoComplete="off"
         layout='vertical'
-        style={{ padding: '0 6rem' }}
         onFinish={onFinish}
         form={form}
+        className={styles.contact__form}
       >
         <Form.Item>
           <div className={styles.contact__formRow}>
