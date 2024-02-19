@@ -1,0 +1,21 @@
+@use '../../../styles/variables.scss' as *;
+
+
+.goBack {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: $branco;
+  font-weight: 300;
+  transition: color 0.3s;
+  margin-bottom: 2rem;
+  width: 4rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    color: $branco;
+    text-decoration: none;
+    gap: 0.5rem;
+  }
+}

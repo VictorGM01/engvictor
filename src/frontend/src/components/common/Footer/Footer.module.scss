@@ -21,6 +21,11 @@
       margin-bottom: 28px;
       margin: 0;
     }
+
+    a {
+      margin: 0;
+      height: 2.25rem;
+    }
   }
 
   &__copy {
@@ -45,10 +50,12 @@
 @media screen and (min-width: 768px){
   .footer {
     padding: 2.5rem 9rem;
+    min-height: 9rem;
 
     &__Logos {
       flex-direction: row;
       gap: 2rem;
+      align-items: center;
     }
 
     &__copy {
