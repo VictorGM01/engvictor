@@ -8,6 +8,7 @@ import GoBack from "../../components/common/GoBack/GoBack";
 export default function Projects() {
   return (
     <section className={styles.projects}>
+      {scrollTo(0, 0)}
       <GoBack />
       <Link nome='Projetos' />
       <hr />
