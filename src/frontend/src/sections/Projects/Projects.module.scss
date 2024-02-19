@@ -1,0 +1,24 @@
+@use '../../styles/_variables.scss' as *;
+
+
+.projects {
+  padding: 2rem 2.75rem ;
+  background-color: $ciano-escuro;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  hr {
+    width: 100%;
+    margin-top: 2rem;
+    border: 1px solid $ciano-claro;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
