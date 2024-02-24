@@ -31,7 +31,7 @@ export default function Experience() {
               <p>Tecnologias utilizadas:</p>
               <section>
                 {experience.tecnologias.map((tecnologia) => (
-                  <img src={`/${tecnologia}.svg`} alt={tecnologia} key={tecnologia} title={`logo da tecnologia: ${tecnologia}`} />
+                  <img src={`/${tecnologia}.svg`} alt={tecnologia} key={tecnologia} title={`${tecnologia}`} />
                 ))}
               </section>
             </span>
