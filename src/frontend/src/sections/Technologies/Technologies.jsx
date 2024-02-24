@@ -22,7 +22,7 @@ export default function Technologies() {
                   src={`${tech}.svg`}
                   alt={tech}
                   className={styles.technologies__area__logos__logo}
-                  title={`Logo da tecnologia: ${tech}`}
+                  title={`${tech}`}
                 />
               ))}
             </div>
