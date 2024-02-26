@@ -4,6 +4,7 @@ import Button from '../../components/common/Button/Button';
 import styles from './Contact.module.scss';
 import emailjs from '@emailjs/browser';
 import { useForm } from 'antd/es/form/Form';
+import { useState } from 'react';
 
 
 export default function Contact() {
@@ -12,17 +13,21 @@ export default function Contact() {
   const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
   const [form] = useForm();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const onFinish = (values) => {
+    setIsSubmitting(true);
     emailjs.send(serviceID, templateID, values, publicKey)
       .then((result) => {
         console.log(result.text);
         form.resetFields();
         alert('Obrigado pelo contato! Recebi sua mensagem e retornarei em breve.');
         scrollTo(0, 0);
+        setIsSubmitting(false);
       }, (error) => {
         console.log(error.text);
         alert('Houve um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.');
+        setIsSubmitting(false);
       });
   };
 
@@ -46,7 +51,7 @@ export default function Contact() {
             <Form.Item
               label="Nome"
               name="nome"
-              rules={[{ required: true, message: 'Por favor, digite o seu nome. Isso agiliza nosso contato :)' }]}
+              rules={[{ required: true, message: 'Por favor, digite o seu nome.' }]}
             >
               <Input placeholder="Digite seu nome" />
             </Form.Item>
@@ -56,11 +61,11 @@ export default function Contact() {
               name="email"
               rules={[{
                 required: true,
-                message: 'Por favor, digite o seu e-mail. Isso agiliza nosso contato :)'
+                message: 'Por favor, digite o seu e-mail.'
               },
               {
                 type: 'email',
-                message: 'Por favor, digite um e-mail válido. Isso agiliza nosso contato :)'
+                message: 'Por favor, digite um e-mail válido.'
               }
               ]}
             >
@@ -83,7 +88,11 @@ export default function Contact() {
         </Form.Item>
 
         <Form.Item className={styles.contact__button}>
-          <Button nome='Entrar em contato' button type='submit' />
+          {isSubmitting ? (
+            <Button type="button" disabled nome='Enviando...' button />
+          ) : (
+            <Button type="submit" nome='Entrar em contato' button />
+          )}
         </Form.Item>
       </Form>
     </section>
