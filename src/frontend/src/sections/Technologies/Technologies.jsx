@@ -6,7 +6,7 @@ import technologies from '../../data/technologies/technologies.json';
 export default function Technologies() {
   return (
     <section className={styles.technologies} id="technologies">
-      <Link nome='Tencnologias' />
+      <Link nome='Tecnologias' />
       <div className={styles.technologies__container}>
       {technologies.map((technology) => (
         <div key={technology.area} className={styles.technologies__area}>
