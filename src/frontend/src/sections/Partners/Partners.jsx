@@ -49,6 +49,11 @@ export default function Partners() {
               <img src="/lello.png" alt="Logo da empresa parceira Grupo Lello" />
             </a>
           </SwiperSlide>
+          <SwiperSlide className={styles.partners__slide} title='Mobly'>
+            <a href="https://www.mobly.com.br/" target="_blank" rel="noreferrer">
+              <img src="/mobly.svg" alt="Logo da empresa parceira Mobly" />
+            </a>
+          </SwiperSlide>
         </Swiper>
       </div>
     </section>

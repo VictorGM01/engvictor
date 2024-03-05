@@ -32,3 +32,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .partners {
+    &__container {
+      margin-top: 3.875rem;
+    }
+
+    &__container img {
+      min-width: 200px;
+      max-height: 32px;
+      margin: 0 calc((100% - 200px) / 2);
+      margin-bottom: 3.875rem;
+    }
+  }
+}
