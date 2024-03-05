@@ -10,9 +10,12 @@ export default function CardProject({ project }) {
       <div className={styles.card__image}>
         <img src={project.imagem} alt={project.nome} />
       </div>
-      <h3>{project.nome}</h3>
-      
-      <p dangerouslySetInnerHTML={createMarkup(project.descricao)}></p>
+
+      <div className={styles.card__description}>
+        <h3>{project.nome}</h3>
+        
+        <p dangerouslySetInnerHTML={createMarkup(project.descricao)}></p>
+      </div>
       
       <div className={styles.card__infos}>
         <div>
