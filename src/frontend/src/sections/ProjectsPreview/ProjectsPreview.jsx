@@ -9,7 +9,7 @@ export default function ProjectsPreview() {
 
   return (
     <section className={styles.projectsPreview} id="projects">
-      <LinkSection nome="Projects" />
+      <LinkSection nome="Projetos" />
       <div className={styles.projectsPreview__item}>
         {projectsFilter.map((project, index) => (
           <CardProject key={index} project={project} />
