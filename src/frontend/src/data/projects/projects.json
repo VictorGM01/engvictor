@@ -1,29 +1,38 @@
 [
-    {
-        "id": 1,
-        "imagem": "/v2-exp.png",
-        "nome": "Infoteca V2",
-        "descricao": "Aplicação web completa para <strong>facilitar o gerenciamento dos conteúdos gerados pelas empresas</strong>, agilizando e facilitando as atividades de comunicação interna, treinamento, execução de processos e monitoramento do ambiente de trabalho. A Infoteca possibilita esses ganhos por meio do <strong>gerenciamento de publicações, de testes de conhecimento e de trilhas</strong>, além da restrição de publicações a grupos e cargos específicos.",
-        "link": "https://v2consulting.com.br/",
-        "data": "29/02/2024",
-        "commits": 800
-    },
-    {
-        "id": 2,
-        "imagem": "/logo-csi.png",
-        "nome": "Cyber Sec Info",
-        "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo.",
-        "link": "https://github.com/VictorGM01/cyber_sec_info",
-        "data": "01/01/2023",
-        "commits": 808
-    },
-    {
-        "id": 3,
-        "imagem": "/logo-athena.png",
-        "nome": "Athena Web",
-        "descricao": "Este projeto, fruto da colaboração entre Inteli e Nova Escola, visa <strong>apoiar professores da rede pública no diagnóstico da aprendizagem dos alunos e recomendar conteúdos pedagógicos</strong>. A Athena é uma aplicação web que gerencia turmas, avaliações e alunos, identificando dificuldades através dos dados das avaliações e fornecendo gráficos e planos de aulas para acompanhamento e recomendações.",
-        "link": "https://github.com/VictorGM01/athena",
-        "data": "25/06/2023",
-        "commits": 389
-    }
+  {
+    "id": 1,
+    "imagem": "/v2-exp.png",
+    "nome": "Infoteca V2",
+    "descricao": "Aplicação web completa para <strong>facilitar o gerenciamento dos conteúdos gerados pelas empresas</strong>, agilizando e facilitando as atividades de comunicação interna, treinamento, execução de processos e monitoramento do ambiente de trabalho. A Infoteca possibilita esses ganhos por meio do <strong>gerenciamento de publicações, de testes de conhecimento e de trilhas</strong>, além da restrição de publicações a grupos e cargos específicos.",
+    "link": "https://v2consulting.com.br/",
+    "data": "20/03/2024",
+    "commits": 800
+  },
+  {
+    "id": 2,
+    "imagem": "/rpa-lello.png",
+    "nome": "RPA - Extração de Relatórios",
+    "descricao": "Este projeto consiste na <strong>automatização da extração de relatórios de atendimentos</strong> da <strong>Lello Condomínios</strong>, uma das maiores administradoras de condomínios do Brasil. O sistema foi desenvolvido para <strong>viabilizar a extração diária de mais de 10 relatórios</strong>, de modo que nenhuma interação humana seja necessária para a execução do processo. Da extração até o envio ao <strong>bucket da AWS</strong>, tudo é feito de forma automática e programada.",
+    "link": "https://www.lellocondominios.com.br/",
+    "data": "04/03/2024",
+    "commits": 100
+  },
+  {
+    "id": 3,
+    "imagem": "/logo-csi.png",
+    "nome": "Cyber Sec Info",
+    "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo.",
+    "link": "https://github.com/VictorGM01/cyber_sec_info",
+    "data": "01/01/2023",
+    "commits": 808
+  },
+  {
+    "id": 4,
+    "imagem": "/logo-athena.png",
+    "nome": "Athena Web",
+    "descricao": "Este projeto, fruto da colaboração entre Inteli e Nova Escola, visa <strong>apoiar professores da rede pública no diagnóstico da aprendizagem dos alunos e recomendar conteúdos pedagógicos</strong>. A Athena é uma aplicação web que gerencia turmas, avaliações e alunos, identificando dificuldades através dos dados das avaliações e fornecendo gráficos e planos de aulas para acompanhamento e recomendações.",
+    "link": "https://github.com/VictorGM01/athena",
+    "data": "25/06/2023",
+    "commits": 389
+  }
 ]
