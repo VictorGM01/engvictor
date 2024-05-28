@@ -1,8 +1,17 @@
 [
   {
+    "id": 0,
+    "imagem": "/idf.png",
+    "nome": "Site Institucional - IDF Brasil",
+    "descricao": "Este projeto consiste na criação de um <strong>site institucional para a IDF Brasil</strong>, uma organização sem fins lucrativos que tem a missão de preservar e conservar a fauna brasileira. O site foi desenvolvido com o objetivo de <strong>divulgar as ações da organização, captar doações e promover a preservação da fauna</strong> por meio de conteúdos acessíveis e interativos.",
+    "link": "https://idfbrasil.org/",
+    "data": "27/05/2024",
+    "commits": 260
+  },
+  {
     "id": 1,
-    "imagem": "/v2-exp.png",
-    "nome": "Infoteca V2",
+    "imagem": "/infoteca.png",
+    "nome": "Infoteca V2 Consulting",
     "descricao": "Aplicação web completa para <strong>facilitar o gerenciamento dos conteúdos gerados pelas empresas</strong>, agilizando e facilitando as atividades de comunicação interna, treinamento, execução de processos e monitoramento do ambiente de trabalho. A Infoteca possibilita esses ganhos por meio do <strong>gerenciamento de publicações, de testes de conhecimento e de trilhas</strong>, além da restrição de publicações a grupos e cargos específicos.",
     "link": "https://v2consulting.com.br/",
     "data": "20/03/2024",
@@ -19,7 +28,7 @@
   },
   {
     "id": 3,
-    "imagem": "/logo-csi.png",
+    "imagem": "/csi.png",
     "nome": "Cyber Sec Info",
     "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo.",
     "link": "https://github.com/VictorGM01/cyber_sec_info",
@@ -28,7 +37,7 @@
   },
   {
     "id": 4,
-    "imagem": "/logo-athena.png",
+    "imagem": "/athena.png",
     "nome": "Athena Web",
     "descricao": "Este projeto, fruto da colaboração entre Inteli e Nova Escola, visa <strong>apoiar professores da rede pública no diagnóstico da aprendizagem dos alunos e recomendar conteúdos pedagógicos</strong>. A Athena é uma aplicação web que gerencia turmas, avaliações e alunos, identificando dificuldades através dos dados das avaliações e fornecendo gráficos e planos de aulas para acompanhamento e recomendações.",
     "link": "https://github.com/VictorGM01/athena",
