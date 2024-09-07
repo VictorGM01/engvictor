@@ -10,7 +10,6 @@ export default function Services() {
       <div className={styles.services__items}>
         {services.map((service, index) => (
           <div key={index} className={styles.services__item}>
-            <img src={`/${service.imagem}.png`} alt={service.servico} />
             <div>
               <h3>{service.servico}</h3>
               <p>{service.descricao}</p>
