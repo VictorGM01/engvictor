@@ -1,8 +1,29 @@
-$branco: #E6EDFF;
-$preto: #0B0E17;
-$azul-marinho: #00022B;
-$azul-escuro: #153A4D;
-$ciano-escuro: #004B56;
-$ciano-medio: #1F5361;
-$ciano-claro: #2E7E89;
-$ciano-extra-claro: #45B3C2;
+$branco: #e6edff;
+$preto: #0b0e17;
+$azul-marinho: #00022b;
+$azul-escuro: #153a4d;
+$ciano-escuro: #004b56;
+$ciano-medio: #1f5361;
+$ciano-claro: #2e7e89;
+$ciano-extra-claro: #45b3c2;
+$gradiente-1: linear-gradient(
+  90deg,
+  rgba(11, 20, 46, 1) 8%,
+  rgba(0, 75, 86, 1) 49%,
+  rgba(21, 58, 77, 1) 100%
+);
+$gradiente-2: linear-gradient(
+  90deg,
+  rgba(11, 20, 46, 1) 8%,
+  rgba(2, 52, 60, 1) 53%,
+  rgba(5, 69, 102, 1) 100%
+);
+$gradiente-3: linear-gradient(180deg, #00022b 0%, #0d2938 100%);
+$gradiente-4: linear-gradient(180deg, #00022b 8%, #030f41 47%, #021433 100%);
+$gradiente-5: linear-gradient(
+  180deg,
+  #00022b 8%,
+  #030f41 47%,
+  #021239 78%,
+  #00022b 100%
+);
