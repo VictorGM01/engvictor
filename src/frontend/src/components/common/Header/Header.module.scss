@@ -1,11 +1,12 @@
 @use '../../../styles/variables.scss' as *;
 
 .header {
+  position: absolute;
   display: flex;
   align-items: center;
   padding: 1.4375rem 2rem;
   background: rgb(11, 0, 43);
-  background: linear-gradient(180deg, rgba(11, 0, 43, 1) 0%, rgba(18, 39, 66, 1) 45%, rgba(19, 47, 71, 1) 62%, rgba(21, 56, 76, 1) 86%, rgba(21, 58, 77, 1) 100%, rgba(21, 58, 77, 1) 100%);
+  background: transparent;
   height: 6.875rem;
   width: 100%;
 

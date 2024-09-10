@@ -1,4 +1,4 @@
-@use '../../styles/_variables.scss' as *;
+@use "../../styles/_variables.scss" as *;
 
 .intro {
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   height: 31.25rem;
   padding: 5.125rem 3.25rem;
-  background-color: $azul-escuro;
+  background: linear-gradient(2.67deg, #00022b 2.18%, #153a4d 97.77%);
 
   p {
     font-size: 2rem;
@@ -19,11 +19,13 @@
     font-weight: 700;
     color: $ciano-claro;
   }
-}
 
-@media (min-width: 768px) {
-  p {
-    font-size: 2.5rem;
-    line-height: 60px;
+  @media (min-width: 768px) {
+    min-height: 100vh;
+
+    p {
+      font-size: 2.5rem;
+      line-height: 60px;
+    }
   }
 }

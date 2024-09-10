@@ -1,4 +1,4 @@
-@use '../../styles/variables.scss' as *;
+@use "../../styles/variables.scss" as *;
 
 .technologies {
   display: flex;
@@ -6,7 +6,7 @@
   width: 100%;
   padding: 2rem;
   min-height: 60.5625rem;
-  background-color: $azul-escuro;
+  background: $gradiente-6;
 
   // o primeiro div precisa de um margin bottom de 1 rem:
   & > div:first-child {
@@ -114,11 +114,11 @@
       gap: 1rem;
       max-width: 100%;
       margin-bottom: 0;
-  
+
       & > img {
         transition: transform 0.2s;
       }
-  
+
       & > img:hover {
         transform: scale(1.1);
       }
