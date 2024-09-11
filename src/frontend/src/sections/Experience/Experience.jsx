@@ -24,7 +24,7 @@ export default function Experience() {
           <article className={styles.experience__card}>
             <div style={{ display: "block", width: "100%" }}>
               <h1>{experience.cargo}</h1>
-              <p>{experience.dataInicio} - {experience.dataFim}</p>
+              <span>{experience.dataInicio} - {experience.dataFim}</span>
             </div>
             <p className={styles.experience__desc}>{experience.descricao}</p>
             <span>
