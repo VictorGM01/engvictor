@@ -18,6 +18,7 @@
       font-size: 1.2rem;
       font-weight: 400;
       line-height: 2rem;
+      color: #BCF0F7;
     }
 
     p {
@@ -73,8 +74,13 @@
           left: calc(100% + 1rem);
           top: 0;
           bottom: 0;
-          width: 1px; // Largura da linha vertical
-          background-color: $ciano-claro; // Cor da linha
+          width: 1px;
+          background: linear-gradient(
+            0deg,
+            rgba(11, 20, 46, 1) 8%,
+            rgba(2, 52, 60, 1) 53%,
+            rgba(5, 69, 102, 1) 100%
+          );
         }
 
         // Isso remove a linha do último item da linha
