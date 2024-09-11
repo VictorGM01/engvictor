@@ -1,32 +1,233 @@
 [
-    {
-        "area": "Banco de Dados",
-        "imagem": "/banco-de-dados.png",
-        "tecnologias": ["postgresql", "mysql", "sqlserver", "sqlite", "mongodb", "redis", "memcached"]
-    },
-    {
-        "area": "Front-end",
-        "imagem": "/front-end.png",
-        "tecnologias": ["html", "css", "js", "typescript", "react", "figma"]
-    },
-    {
-        "area": "Back-end",
-        "imagem": "/back-end.png",
-        "tecnologias": ["node", "express", "python", "django", "adonis"]
-    },
-    {
-        "area": "Testes",
-        "imagem": "/testes.png",
-        "tecnologias": ["jest", "pytest", "cypress", "postman"]
-    },
-    {
-        "area": "Dados",
-        "imagem": "/dados.png",
-        "tecnologias": ["pandas", "numpy", "seaborn", "sklearn", "pycaret", "scrapy", "spark"]
-    },
-    {
-        "area": "Arquitetura",
-        "imagem": "/arquitetura.png",
-        "tecnologias": ["git", "github", "bitbucket", "airflow", "aws", "linux", "databricks", "azure"]
-    }
+  {
+    "area": "Banco de Dados",
+    "imagem": "/banco-de-dados.png",
+    "tecnologias": [
+      {
+        "nome": "PostgreSQL",
+        "src": "postgresql",
+        "descricao": "Um banco de dados relacional poderoso e de código aberto, conhecido pela sua robustez e extensibilidade."
+      },
+      {
+        "nome": "MySQL",
+        "src": "mysql",
+        "descricao": "Um dos bancos de dados relacionais mais populares, amplamente utilizado para aplicações web."
+      },
+      {
+        "nome": "SQL Server",
+        "src": "sqlserver",
+        "descricao": "Banco de dados relacional da Microsoft, usado para grandes aplicações empresariais."
+      },
+      {
+        "nome": "SQLite",
+        "src": "sqlite",
+        "descricao": "Um banco de dados leve e embutido, ideal para pequenas aplicações e dispositivos móveis."
+      },
+      {
+        "nome": "MongoDB",
+        "src": "mongodb",
+        "descricao": "Um banco de dados NoSQL que armazena dados em formato JSON, popular em desenvolvimento ágil."
+      },
+      {
+        "nome": "Redis",
+        "src": "redis",
+        "descricao": "Um banco de dados de chave-valor em memória, usado para cache e suporte de alta performance."
+      }
+    ]
+  },
+  {
+    "area": "Front-end",
+    "imagem": "/front-end.png",
+    "tecnologias": [
+      {
+        "nome": "HTML",
+        "src": "html",
+        "descricao": "A linguagem padrão de marcação para criar páginas web."
+      },
+      {
+        "nome": "CSS",
+        "src": "css",
+        "descricao": "Usado para estilizar e formatar o layout de páginas web."
+      },
+      {
+        "nome": "JavaScript",
+        "src": "js",
+        "descricao": "Linguagem de programação dinâmica que adiciona interatividade às páginas web."
+      },
+      {
+        "nome": "TypeScript",
+        "src": "typescript",
+        "descricao": "Uma linguagem baseada em JavaScript que adiciona tipos estáticos para maior segurança no código."
+      },
+      {
+        "nome": "React",
+        "src": "react",
+        "descricao": "Biblioteca JavaScript para construir interfaces de usuário com componentes reutilizáveis."
+      },
+      {
+        "nome": "Figma",
+        "src": "figma",
+        "descricao": "Ferramenta de design colaborativo usada para criar protótipos e interfaces de usuário."
+      },
+      {
+        "nome": "Vue.js",
+        "src": "vuejs",
+        "descricao": "Framework progressivo para construção de interfaces de usuário e aplicações web."
+      },
+      {
+        "nome": "Tailwind CSS",
+        "src": "tailwindcss",
+        "descricao": "Framework CSS utilitário que facilita a criação de layouts customizáveis."
+      }
+    ]
+  },
+  {
+    "area": "Back-end",
+    "imagem": "/back-end.png",
+    "tecnologias": [
+      {
+        "nome": "Node.js",
+        "src": "nodejs",
+        "descricao": "Ambiente de execução JavaScript para construir aplicações de back-end escaláveis."
+      },
+      {
+        "nome": "Express.js",
+        "src": "express",
+        "descricao": "Framework minimalista para Node.js, usado para criar APIs e aplicativos web."
+      },
+      {
+        "nome": "Python",
+        "src": "python",
+        "descricao": "Linguagem de programação versátil e fácil de aprender, usada para back-end e ciência de dados."
+      },
+      {
+        "nome": "Django",
+        "src": "django",
+        "descricao": "Framework web de alto nível para Python, conhecido por sua rapidez e segurança."
+      },
+      {
+        "nome": "AdonisJS",
+        "src": "adonis",
+        "descricao": "Framework MVC para Node.js que facilita a construção de aplicações web robustas."
+      },
+      {
+        "nome": "FastAPI",
+        "src": "fastapi",
+        "descricao": "Framework moderno para APIs em Python, focado em desempenho e simplicidade."
+      },
+      {
+        "nome": "Fastify",
+        "src": "fastify",
+        "descricao": "Framework web para Node.js, rápido e focado em eficiência e baixo overhead."
+      },
+      {
+        "nome": "NestJS",
+        "src": "nest",
+        "descricao": "Framework progressivo para Node.js que usa TypeScript para construir aplicações escaláveis."
+      }
+    ]
+  },
+  {
+    "area": "Testes",
+    "imagem": "/testes.png",
+    "tecnologias": [
+      {
+        "nome": "Jest",
+        "src": "jest",
+        "descricao": "Framework de testes para JavaScript, amplamente utilizado para aplicações React."
+      },
+      {
+        "nome": "Cypress",
+        "src": "cypress",
+        "descricao": "Ferramenta de testes end-to-end para garantir a funcionalidade de aplicativos web."
+      },
+      {
+        "nome": "Postman",
+        "src": "postman",
+        "descricao": "Plataforma para desenvolvimento de APIs que facilita a criação e o teste de endpoints."
+      },
+      {
+        "nome": "Selenium",
+        "src": "selenium",
+        "descricao": "Ferramenta de automação de testes para navegadores, usada em testes de UI."
+      }
+    ]
+  },
+  {
+    "area": "Dados",
+    "imagem": "/dados.png",
+    "tecnologias": [
+      {
+        "nome": "Pandas",
+        "src": "pandas",
+        "descricao": "Biblioteca Python para análise de dados, muito usada em ciência de dados."
+      },
+      {
+        "nome": "Numpy",
+        "src": "numpy",
+        "descricao": "Biblioteca Python para computação numérica eficiente, base para muitas operações de ciência de dados."
+      },
+      {
+        "nome": "Scikit-learn",
+        "src": "sklearn",
+        "descricao": "Biblioteca Python para aprendizado de máquina, com ferramentas para modelagem preditiva."
+      },
+      {
+        "nome": "Spark",
+        "src": "spark",
+        "descricao": "Framework de processamento de dados distribuído, usado para grandes volumes de dados."
+      },
+      {
+        "nome": "Jupyter",
+        "src": "jupyter",
+        "descricao": "Ambiente de notebooks interativos para visualização e manipulação de dados."
+      }
+    ]
+  },
+  {
+    "area": "Arquitetura",
+    "imagem": "/arquitetura.png",
+    "tecnologias": [
+      {
+        "nome": "Git",
+        "src": "git",
+        "descricao": "Sistema de controle de versão distribuído para rastrear mudanças no código."
+      },
+      {
+        "nome": "GitHub",
+        "src": "github",
+        "descricao": "Plataforma de hospedagem de código que facilita a colaboração e o controle de versão."
+      },
+      {
+        "nome": "Airflow",
+        "src": "airflow",
+        "descricao": "Plataforma de orquestração de workflows para automação de processos de dados."
+      },
+      {
+        "nome": "AWS",
+        "src": "aws",
+        "descricao": "Plataforma de serviços em nuvem da Amazon, usada para infraestrutura e hospedagem."
+      },
+      {
+        "nome": "Linux",
+        "src": "linux",
+        "descricao": "Sistema operacional open-source amplamente utilizado para servidores e desenvolvimento."
+      },
+      {
+        "nome": "Docker",
+        "src": "docker",
+        "descricao": "Plataforma de containers que facilita o desenvolvimento e a implantação de aplicações."
+      },
+      {
+        "nome": "Azure",
+        "src": "azure",
+        "descricao": "Plataforma de nuvem da Microsoft, usada para infraestrutura, aplicações e serviços."
+      },
+      {
+        "nome": "GitHub Actions",
+        "src": "githubactions",
+        "descricao": "Ferramenta de automação CI/CD integrada ao GitHub, usada para deploys e testes."
+      }
+    ]
+  }
 ]

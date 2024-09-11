@@ -25,6 +25,7 @@
 .button-link {
   background-color: rgba(0, 2, 43, 1);
   box-shadow: 1px 1px 4px 0px rgba(82, 142, 150, 0.5);
+  position: relative;
 
   &::before {
     content: "";

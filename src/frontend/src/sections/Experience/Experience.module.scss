@@ -51,6 +51,7 @@
     font-size: 1rem;
     border-radius: 10px;
     transition: all .5s;
+    position: relative;
 
     &:hover {
       background: $gradiente-3;
