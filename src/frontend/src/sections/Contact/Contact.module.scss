@@ -31,7 +31,7 @@
     border-radius: 100px;
     margin-top: 0.5rem;
     min-height: 2.625rem;
-    background-color: #1A4758 !important;
+    background-color: #00022B !important;
     color: $branco;
 
     &::placeholder {
@@ -46,9 +46,10 @@
     border-radius: 10px;
     margin-top: 0.5rem;
     min-height: 8rem;
-    background-color: #1A4758 !important;
+    background-color: #00022B !important;
     resize: none;
     color: $branco;
+    padding: 1rem;
 
     &::placeholder {
       color: $branco;

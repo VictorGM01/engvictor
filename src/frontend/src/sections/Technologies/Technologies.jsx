@@ -4,7 +4,7 @@ import Link from "../../components/common/Link/Link";
 import technologies from "../../data/technologies/technologies.json";
 
 export default function Technologies() {
-  const [openItemId, setOpenItemId] = useState(null);
+  const [openItemId, setOpenItemId] = useState("Banco de Dados");
   const [selectedTech, setSelectedTech] = useState(null);
 
   const handleItemClick = (id) => {

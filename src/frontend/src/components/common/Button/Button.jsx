@@ -8,7 +8,7 @@ export default function Button({
   type = "button",
 }) {
   return button ? (
-    <button type={type} className={styles.button}>
+    <button type={type} className={`${styles.button} ${styles["button-link"]}`}>
       {nome}
     </button>
   ) : (
