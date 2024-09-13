@@ -23,6 +23,10 @@
     font-size: 1rem;
     text-decoration: none;
     transition: color .3s;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
 
     &:hover {
       color: $ciano-claro;

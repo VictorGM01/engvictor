@@ -1,15 +1,18 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-import styles from './Partners.module.scss';
-import Link from '../../components/common/Link/Link';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import styles from "./Partners.module.scss";
+import Link from "../../components/common/Link/Link";
 import "swiper/swiper-bundle.css";
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { useTranslation } from "react-i18next";
 
 export default function Partners() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.partners} id="partners">
-      <Link nome='Parceiros' />
+      <Link nome={t("parceiros.titulo")} />
       <div className={styles.partners__container}>
         <Swiper
           modules={[Navigation, Pagination]}
@@ -26,31 +29,49 @@ export default function Partners() {
           breakpoints={{
             768: {
               slidesPerView: 2,
-              spaceBetween: 40
+              spaceBetween: 40,
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 50
+              spaceBetween: 50,
             },
           }}
         >
-          <SwiperSlide className={styles.partners__slide} title='V2 Consulting'>
-            <a href="https://v2consulting.com.br/" target="_blank" rel="noreferrer">
-              <img src="/v2-exp.png" alt="Logo da empresa parceira V2 Consulting" />
+          <SwiperSlide className={styles.partners__slide} title="V2 Consulting">
+            <a
+              href="https://v2consulting.com.br/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/v2-exp.png"
+                alt="Logo da empresa parceira V2 Consulting"
+              />
             </a>
           </SwiperSlide>
-          <SwiperSlide className={styles.partners__slide} title='Sanus'>
+          <SwiperSlide className={styles.partners__slide} title="Sanus">
             <a href="https://www.sanus.tech/" target="_blank" rel="noreferrer">
               <img src="/sanus.png" alt="Logo da empresa parceira Sanus" />
             </a>
           </SwiperSlide>
-          <SwiperSlide className={styles.partners__slide} title='Grupo Lello'>
-            <a href="https://www.lello.com.br/" target="_blank" rel="noreferrer">
-              <img src="/lello.png" alt="Logo da empresa parceira Grupo Lello" />
+          <SwiperSlide className={styles.partners__slide} title="Grupo Lello">
+            <a
+              href="https://www.lello.com.br/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/lello.png"
+                alt="Logo da empresa parceira Grupo Lello"
+              />
             </a>
           </SwiperSlide>
-          <SwiperSlide className={styles.partners__slide} title='Mobly'>
-            <a href="https://www.mobly.com.br/" target="_blank" rel="noreferrer">
+          <SwiperSlide className={styles.partners__slide} title="Mobly">
+            <a
+              href="https://www.mobly.com.br/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="/mobly.svg" alt="Logo da empresa parceira Mobly" />
             </a>
           </SwiperSlide>

@@ -1,4 +1,4 @@
-@use '../../../styles/variables.scss' as *;
+@use "../../../styles/variables.scss" as *;
 
 .header {
   position: absolute;
@@ -14,10 +14,13 @@
   }
 
   input:checked ~ label > img {
-    content: url('../../../assets/icons/close.svg');
+    position: absolute;
+    top: 2.6rem;
+    content: url("../../../assets/icons/close.svg");
     width: 25px;
     height: 26px;
-    margin-left: .2rem;
+    margin-left: 0.2rem;
+    z-index: 100;
   }
 
   input:checked ~ ul {
@@ -36,13 +39,16 @@
     list-style: none;
     margin-top: 2rem;
     gap: 2rem;
-    top: 6.875rem;
-    background-color: $azul-escuro;
+    top: 0;
+    background: linear-gradient(2.67deg, #00022b 2.18%, #153a4d 97.77%);
     width: 100%;
-    padding: 2rem;
+    padding: 7rem 2rem;
+    padding-bottom: 2rem;
     margin: 0;
     margin-left: -2rem;
-    height: 31.1875rem;
+    height: 100vh;
+    box-shadow: 0px 4px 4px rgba($ciano-claro, 0.25);
+    z-index: 1;
   }
 
   ul li {
@@ -51,7 +57,8 @@
     height: 38px;
   }
 
-  ul li a {
+  ul li a,
+  span {
     color: $branco;
     font-size: 1.28125rem;
     text-decoration: none;
@@ -68,14 +75,42 @@
   img {
     width: 4rem;
     height: 4rem;
+    z-index: 100;
   }
 
-  div {
+  > div {
     width: calc(50% + 2rem);
     height: 6.875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .dropdown__language {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: $branco;
+      font-size: 18px;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 2rem;
+      height: 1.75rem;
+    }
+
+    span {
+      color: $ciano-extra-claro;
+    }
   }
 }
 
@@ -86,11 +121,12 @@
     align-items: center;
     justify-content: center;
 
-    input, label {
+    input,
+    label {
       display: none;
     }
 
-    div {
+    > div {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -105,11 +141,12 @@
       position: inherit;
       width: auto;
       flex-direction: row;
-      background-color: transparent;
+      background: transparent;
       padding: 0;
       margin: 0;
       gap: 2rem;
       height: auto;
+      box-shadow: none;
     }
 
     ul li {
@@ -118,24 +155,39 @@
       height: auto;
       transition: all 0.2s;
 
-      a {
+      a,
+      span {
         font-size: 1.125rem;
         line-height: 27px;
         font-weight: 400;
+        transition: all 0.2s;
       }
 
       &:hover {
-        border-bottom: 2px solid $ciano-extra-claro;
-        padding: 0 0 4px 0;
         a {
+          border-bottom: 2px solid $ciano-extra-claro;
+          padding: 0 0 4px 0;
           color: $ciano-claro;
         }
       }
     }
 
-    img:hover {
+    > div > img:hover {
       transition: all 1s;
       transform: rotate(360deg);
+    }
+
+    .dropdown__language {
+      display: flex;
+      flex-direction: row-reverse;
+
+      button {
+        cursor: pointer;
+      }
+
+      span {
+        display: none;
+      }
     }
   }
 }

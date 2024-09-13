@@ -5,11 +5,14 @@ import Email from "../../assets/icons/email.svg";
 import Github from "../../assets/icons/github.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
 import Button from "../../components/common/Button/Button";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.about} id="about">
-      <Link nome="Sobre" />
+      <Link nome={t("sobre.titulo")} />
       <img src="/grafico.svg" alt="Gráfico" className={styles.about__grafico} />
       <div className={styles.about__container}>
         <section className={styles.about__container_perfil}>
@@ -45,19 +48,12 @@ export default function About() {
           </div>
         </section>
         <section className={styles.about__container_sobre}>
-          <p className={styles.about__sobre}>
-            <span>Engenheiro de Software</span> e entusiasta da{" "}
-            <span>filosofia do código limpo</span> (Clean Code). Minha
-            experiência profissional inclui o desenvolvimento de{" "}
-            <span>aplicações web completas</span>, incluindo back-end, front-end
-            e dados. Possuo conhecimento prático em Python, Django, JavaScript,
-            TypeScript, Node.JS, AdonisJS, e trabalho com bancos de dados como
-            MySQL, PostgreSQL e SQL Server. Além disso, tenho experiência com{" "}
-            <span>tecnologias front-end</span>, incluindo HTML5, CSS3, e
-            ReactJS.
-          </p>
+          <p
+            className={styles.about__sobre}
+            dangerouslySetInnerHTML={{ __html: t("sobre.descricao") }}
+          ></p>
 
-          <Button nome="Entre em contato" link="#contact" />
+          <Button nome={t("sobre.entreEmContato")} link="#contact" />
         </section>
       </div>
     </section>

@@ -7,7 +7,7 @@
     "descricao": "Atuei com desenvolvedor full-stack de uma aplicação web para o gerenciamento de bases de conhecimentos e treinamentos empresariais. O projeto envolveu a criação do back-end, do front-end e o gerenciamento do banco de dados.",
     "dataInicio": "set/2023",
     "dataFim": "fev/2024",
-    "tecnologias": ["html", "css", "js", "react", "figma", "node", "sqlserver", "jest", "postman", "git"]
+    "tecnologias": ["html", "css", "js", "react", "figma", "nodejs", "sqlserver", "jest", "postman", "git"]
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "descricao": "Atuei como diretor da equipe de desenvolvimento web da liga de Inteligência Artificial do Inteli. Pude gerir a equipe de desenvolvedores back-end e front-end da aplicação web da InAI, além do time de banco de dados.",
     "dataInicio": "set/2023",
     "dataFim": "dez/2024",
-    "tecnologias": ["html", "css", "js", "react", "figma", "node", "postgresql", "asp", "postman", "git", "agile"]
+    "tecnologias": ["html", "css", "js", "react", "figma", "nodejs", "postgresql", "asp", "postman", "git", "agile"]
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "descricao": "Estagiei, durante as férias de 2023, na área de Inteligência Artificial da Rede Gazeta, de modo a construir uma interface web para a comunicação entre o redator e uma IA treinada com o acervo da Gazeta.",
     "dataInicio": "jun/2023",
     "dataFim": "jul/2023",
-    "tecnologias": ["python", "pandas", "openai", "git", "agile", "node"]
+    "tecnologias": ["python", "pandas", "openai", "git", "agile", "nodejs"]
   },
   {
     "id": 5,

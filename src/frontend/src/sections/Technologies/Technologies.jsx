@@ -2,10 +2,12 @@ import { useState } from "react";
 import styles from "./Technologies.module.scss";
 import Link from "../../components/common/Link/Link";
 import technologies from "../../data/technologies/technologies.json";
+import { useTranslation } from "react-i18next";
 
 export default function Technologies() {
   const [openItemId, setOpenItemId] = useState("Banco de Dados");
   const [selectedTech, setSelectedTech] = useState(null);
+  const { t } = useTranslation();
 
   const handleItemClick = (id) => {
     setOpenItemId(openItemId === id ? null : id);
@@ -25,7 +27,13 @@ export default function Technologies() {
             openItemId === technology.area ? styles.technologies__highlight : ""
           }`}
         >
-          <p>{technology.area}</p>
+          <p>
+            {t(
+              `tecnologias.areas.${technology.area
+                .replace(/\s+/g, "")
+                .toLowerCase()}`
+            )}
+          </p>
         </div>
         {openItemId === technology.area && (
           <article className={styles.technologies__card}>
@@ -56,11 +64,11 @@ export default function Technologies() {
           <div className={styles.technologies__description}>
             <h2>{selectedTech}</h2>
             <p>
-              {
-                technology.tecnologias.find(
-                  (tech) => tech.nome === selectedTech
-                ).descricao
-              }
+              {t(
+                `tecnologias.descricoes.${technology.tecnologias
+                  .find((tech) => tech.nome === selectedTech)
+                  .src.toLowerCase()}`
+              )}
             </p>
           </div>
         )}
@@ -70,7 +78,7 @@ export default function Technologies() {
 
   return (
     <section className={styles.technologies} id="technologies">
-      <Link nome="Tecnologias" />
+      <Link nome={t("tecnologias.titulo")} />
       <div className={styles.technologies__container}>
         <ul className={styles.technologies__list}>{geraItens()}</ul>
       </div>

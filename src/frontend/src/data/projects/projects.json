@@ -29,7 +29,7 @@
   {
     "id": 4,
     "imagem": "/rpa-lello.png",
-    "nome": "RPA - Extração de Relatórios",
+    "nome": "RPA Relatórios Lello",
     "descricao": "Este projeto consiste na <strong>automatização da extração de relatórios de atendimentos</strong> da <strong>Lello Condomínios</strong>, uma das maiores administradoras de condomínios do Brasil. O sistema foi desenvolvido para <strong>viabilizar a extração diária de mais de 10 relatórios</strong>, de modo que nenhuma interação humana seja necessária para a execução do processo. Da extração até o envio ao <strong>bucket da AWS</strong>, tudo é feito de forma automática e programada.",
     "link": "https://www.lellocondominios.com.br/",
     "data": "04/03/2024",
