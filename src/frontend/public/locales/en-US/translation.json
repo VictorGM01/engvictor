@@ -162,5 +162,9 @@
       "descricao": "This project, a collaboration between Inteli and Nova Escola, aims to <strong>support public school teachers in diagnosing student learning and recommending pedagogical content</strong>. Athena is a web application that manages classes, assessments, and students, identifying difficulties through assessment data and providing charts and lesson plans for monitoring and recommendations."
     },
     "verMais": "See more"
+  },
+  "404": {
+    "titulo": "Page not found",
+    "goBackToHome": "Go back to the homepage"
   }
 }
