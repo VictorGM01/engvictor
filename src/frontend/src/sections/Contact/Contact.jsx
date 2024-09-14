@@ -1,13 +1,14 @@
-import { Form, Input } from 'antd';
-import Link from '../../components/common/Link/Link';
-import Button from '../../components/common/Button/Button';
-import styles from './Contact.module.scss';
-import emailjs from '@emailjs/browser';
-import { useForm } from 'antd/es/form/Form';
-import { useState } from 'react';
-
+import { Form, Input } from "antd";
+import Link from "../../components/common/Link/Link";
+import Button from "../../components/common/Button/Button";
+import styles from "./Contact.module.scss";
+import emailjs from "@emailjs/browser";
+import { useForm } from "antd/es/form/Form";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation(); // Hook para utilizar as traduções
   const serviceID = import.meta.env.VITE_SERVICE_ID;
   const templateID = import.meta.env.VITE_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_PUBLIC_KEY;
@@ -17,31 +18,31 @@ export default function Contact() {
 
   const onFinish = (values) => {
     setIsSubmitting(true);
-    emailjs.send(serviceID, templateID, values, publicKey)
-      .then((result) => {
+    emailjs.send(serviceID, templateID, values, publicKey).then(
+      (result) => {
         console.log(result.text);
         form.resetFields();
-        alert('Obrigado pelo contato! Recebi sua mensagem e retornarei em breve.');
+        alert(t("contato.form.sucesso")); // Mensagem de sucesso traduzida
         scrollTo(0, 0);
         setIsSubmitting(false);
-      }, (error) => {
+      },
+      (error) => {
         console.log(error.text);
-        alert('Houve um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.');
+        alert(t("contato.form.erro")); // Mensagem de erro traduzida
         setIsSubmitting(false);
-      });
+      }
+    );
   };
 
   return (
     <section className={styles.contact} id="contact">
-      <Link nome='Entre em contato' />
-      <span>
-        Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta preencher formulário abaixo!</strong>
-      </span>
+      <Link nome={t("contato.titulo")} />
+      <span dangerouslySetInnerHTML={{ __html: t("contato.descricao") }}></span>
       <Form
         name="basic"
         initialValues={{ remember: true }}
         autoComplete="off"
-        layout='vertical'
+        layout="vertical"
         onFinish={onFinish}
         form={form}
         className={styles.contact__form}
@@ -49,49 +50,48 @@ export default function Contact() {
         <Form.Item>
           <div className={styles.contact__formRow}>
             <Form.Item
-              label="Nome"
+              label={t("contato.form.nome")}
               name="nome"
-              rules={[{ required: true, message: 'Por favor, digite o seu nome.' }]}
-            >
-              <Input placeholder="Digite seu nome" />
-            </Form.Item>
-
-            <Form.Item
-              label="E-mail"
-              name="email"
-              rules={[{
-                required: true,
-                message: 'Por favor, digite o seu e-mail.'
-              },
-              {
-                type: 'email',
-                message: 'Por favor, digite um e-mail válido.'
-              }
+              rules={[
+                { required: true, message: t("contato.form.nomeMensagem") },
               ]}
             >
-              <Input placeholder='Digite seu e-mail' />
+              <Input placeholder={t("contato.form.nomePlaceholder")} />
             </Form.Item>
 
             <Form.Item
-              label="Assunto"
-              name="assunto"
+              label={t("contato.form.email")}
+              name="email"
+              rules={[
+                { required: true, message: t("contato.form.emailMensagem") },
+                {
+                  type: "email",
+                  message: t("contato.form.emailMensagemInvalido"),
+                },
+              ]}
             >
-              <Input placeholder='Qual assunto do contato?' />
+              <Input placeholder={t("contato.form.emailPlaceholder")} />
+            </Form.Item>
+
+            <Form.Item label={t("contato.form.assunto")} name="assunto">
+              <Input placeholder={t("contato.form.assuntoPlaceholder")} />
             </Form.Item>
           </div>
         </Form.Item>
-        <Form.Item
-          label="Mensagem"
-          name="mensagem"
-        >
-          <Input.TextArea placeholder='Se desejar, conte um pouco mais sobre o que precisa...' />
+        <Form.Item label={t("contato.form.mensagem")} name="mensagem">
+          <Input.TextArea placeholder={t("contato.form.mensagemPlaceholder")} />
         </Form.Item>
 
         <Form.Item className={styles.contact__button}>
           {isSubmitting ? (
-            <Button type="button" disabled nome='Enviando...' button />
+            <Button
+              type="button"
+              disabled
+              nome={t("contato.form.enviando")}
+              button
+            />
           ) : (
-            <Button type="submit" nome='Entrar em contato' button />
+            <Button type="submit" nome={t("contato.form.enviar")} button />
           )}
         </Form.Item>
       </Form>

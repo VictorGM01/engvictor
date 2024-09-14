@@ -1,0 +1,170 @@
+{
+  "header": {
+    "sobre": "Sobre",
+    "experiencias": "Experiências",
+    "servicos": "Serviços",
+    "parceiros": "Parceiros",
+    "projetos": "Projetos",
+    "tecnologias": "Tecnologias",
+    "idioma": "Idioma"
+  },
+  "intro": {
+    "engenheiro": "Engenharia de Software.",
+    "ciencia": "Ciência de Dados.",
+    "codigoLimpo": "Código limpo e arquitetura.",
+    "issoNao": "Isso não é o",
+    "meuTrabalho": "meu trabalho",
+    "issoE": "é a",
+    "minhaPaixao": "minha paixão."
+  },
+  "sobre": {
+    "titulo": "Sobre",
+    "descricao": "<span>Engenheiro de Software</span> e entusiasta da <span>filosofia do código limpo</span> (Clean Code). Minha experiência profissional inclui o desenvolvimento de <span>aplicações web completas</span>, incluindo back-end, front-end e dados. Possuo conhecimento prático em Python, Django, JavaScript, TypeScript, Node.JS, Nest.js, e trabalho com bancos de dados como MySQL, PostgreSQL e SQL Server. Além disso, tenho experiência com <span>tecnologias front-end</span>, incluindo HTML5, CSS3, ReactJS e Next.",
+    "entreEmContato": "Entre em contato"
+  },
+  "experiencia": {
+    "titulo": "Experiências",
+    "tecnologiasUtilizadas": "Tecnologias utilizadas",
+    "cargos": {
+      "DesenvolvedordeSistemasdaInformação": "Desenvolvedor de Sistemas da Informação",
+      "DiretordeDesenvolvimentoWeb": "Diretor de Desenvolvimento Web",
+      "EngenheirodeDados": "Engenheiro de Dados",
+      "DesenvolvedordesistemascomIA": "Desenvolvedor de sistemas com IA",
+      "DesenvolvedordeServiçoseTecnologias": "Desenvolvedor de Serviços e Tecnologias"
+    },
+    "descricoes": {
+      "v2consulting1": "Atuei com desenvolvedor full-stack de uma aplicação web para o gerenciamento de bases de conhecimentos e treinamentos empresariais. O projeto envolveu a criação do back-end, do front-end e o gerenciamento do banco de dados.",
+      "inai": "Atuei como diretor da equipe de desenvolvimento web da liga de Inteligência Artificial do Inteli. Pude gerir a equipe de desenvolvedores back-end e front-end da aplicação web da InAI, além do time de banco de dados.",
+      "mobly": "Estagiei, durante as férias de 2024, na área de engenharia de dados da Mobly. As atividades consistiram em refatorar e otimizar um sistema de gestão de mensagens pós-venda por intermédio da API do Mercado Livre.",
+      "redegazeta": "Estagiei, durante as férias de 2023, na área de Inteligência Artificial da Rede Gazeta, de modo a construir uma interface web para a comunicação entre o redator e uma IA treinada com o acervo da Gazeta.",
+      "v2consulting2": "Atuei na área de prestação de serviços de suporte a clientes contratantes do software da empresa, o Sistema de Monitoria V2. Além disso, fui encarregado pela produção de códigos para a automação de tarefas repetitivas, como a extração rotineira de relatórios."
+    }
+  },
+  "servicos": {
+    "titulo": "Serviços",
+    "titulos": {
+      "desenvolvimentoweb": "Desenvolvimento Web",
+      "projetodebancodedados": "Projeto de Banco de Dados",
+      "automaçãodeprocessos": "Automação de Processos",
+      "modelosdemachinelearning": "Modelos de Machine Learning",
+      "engenhariadedados": "Engenharia de Dados",
+      "otimizaçãodesistemas": "Otimização de Sistemas"
+    },
+    "descricoes": {
+      "desenvolvimentoweb": "Realizo o desenvolvimento, de ponta a ponta, de sistemas para a web. Do design de interfaces à implementação de back-end, incluindo a implantação de servidores.",
+      "projetodebancodedados": "Modelo e implemento projetos de banco de dados para empresas. A partir da modelagem de dados, crio e implanto sistemas de gerenciamento de banco de dados.",
+      "automaçãodeprocessos": "Desenvolvo sistemas de automação para tarefas repetitivas, custosas, cansativas e/ou complexas. Por meio de scripts, automatizo e viabilizo a execução de processos.",
+      "modelosdemachinelearning": "Aplico modelos de aprendizagem de máquina para diversas finalidades, incluindo classificação, agrupamento, aprendizado não supervisionado e afins.",
+      "engenhariadedados": "Realizo a coleta e a transformação de dados para a adequação aos mais diversos sistemas e projetos da empresa. Seja para a montagem de data lakes ou para a criação de pipelines de dados.",
+      "otimizaçãodesistemas": "Melhoro o desempenho de sistemas por meio de refatorações, correções de erros e ajustes estruturais. A partir de análises de desempenho, identifico e corrijo gargalos."
+    }
+  },
+  "parceiros": {
+    "titulo": "Parceiros"
+  },
+  "tecnologias": {
+    "titulo": "Tecnologias",
+    "areas": {
+      "bancodedados": "Banco de Dados",
+      "front-end": "Front-end",
+      "back-end": "Back-end",
+      "testes": "Testes",
+      "dados": "Dados",
+      "arquitetura": "Arquitetura"
+    },
+    "descricoes": {
+      "postgresql": "Um banco de dados relacional poderoso e de código aberto, conhecido pela sua robustez e extensibilidade.",
+      "mysql": "Um dos bancos de dados relacionais mais populares, amplamente utilizado para aplicações web.",
+      "sqlserver": "Banco de dados relacional da Microsoft, usado para grandes aplicações empresariais.",
+      "sqlite": "Um banco de dados leve e embutido, ideal para pequenas aplicações e dispositivos móveis.",
+      "mongodb": "Um banco de dados NoSQL que armazena dados em formato JSON, popular em desenvolvimento ágil.",
+      "redis": "Um banco de dados de chave-valor em memória, usado para cache e suporte de alta performance.",
+      "html": "A linguagem padrão de marcação para criar páginas web.",
+      "css": "Usado para estilizar e formatar o layout de páginas web.",
+      "js": "Linguagem de programação dinâmica que adiciona interatividade às páginas web.",
+      "typescript": "Uma linguagem baseada em JavaScript que adiciona tipos estáticos para maior segurança no código.",
+      "react": "Biblioteca JavaScript para construir interfaces de usuário com componentes reutilizáveis.",
+      "figma": "Ferramenta de design colaborativo usada para criar protótipos e interfaces de usuário.",
+      "vuejs": "Framework progressivo para construção de interfaces de usuário e aplicações web.",
+      "tailwindcss": "Framework CSS utilitário que facilita a criação de layouts customizáveis.",
+      "nodejs": "Ambiente de execução JavaScript para construir aplicações de back-end escaláveis.",
+      "express": "Framework minimalista para Node.js, usado para criar APIs e aplicativos web.",
+      "python": "Linguagem de programação versátil e fácil de aprender, usada para back-end e ciência de dados.",
+      "django": "Framework web de alto nível para Python, conhecido por sua rapidez e segurança.",
+      "adonis": "Framework MVC para Node.js que facilita a construção de aplicações web robustas.",
+      "fastapi": "Framework moderno para APIs em Python, focado em desempenho e simplicidade.",
+      "fastify": "Framework web para Node.js, rápido e focado em eficiência e baixo overhead.",
+      "nest": "Framework progressivo para Node.js que usa TypeScript para construir aplicações escaláveis.",
+      "jest": "Framework de testes para JavaScript, amplamente utilizado para aplicações React.",
+      "cypress": "Ferramenta de testes end-to-end para garantir a funcionalidade de aplicativos web.",
+      "postman": "Plataforma para desenvolvimento de APIs que facilita a criação e o teste de endpoints.",
+      "selenium": "Ferramenta de automação de testes para navegadores, usada em testes de UI.",
+      "pandas": "Biblioteca Python para análise de dados, muito usada em ciência de dados.",
+      "numpy": "Biblioteca Python para computação numérica eficiente, base para muitas operações de ciência de dados.",
+      "sklearn": "Biblioteca Python para aprendizado de máquina, com ferramentas para modelagem preditiva.",
+      "spark": "Framework de processamento de dados distribuído, usado para grandes volumes de dados.",
+      "jupyter": "Ambiente de notebooks interativos para visualização e manipulação de dados.",
+      "git": "Sistema de controle de versão distribuído para rastrear mudanças no código.",
+      "github": "Plataforma de hospedagem de código que facilita a colaboração e o controle de versão.",
+      "airflow": "Plataforma de orquestração de workflows para automação de processos de dados.",
+      "aws": "Plataforma de serviços em nuvem da Amazon, usada para infraestrutura e hospedagem.",
+      "linux": "Sistema operacional open-source amplamente utilizado para servidores e desenvolvimento.",
+      "docker": "Plataforma de containers que facilita o desenvolvimento e a implantação de aplicações.",
+      "azure": "Plataforma de nuvem da Microsoft, usada para infraestrutura, aplicações e serviços.",
+      "githubactions": "Ferramenta de automação CI/CD integrada ao GitHub, usada para deploys e testes."
+    }
+  },
+  "contato": {
+    "titulo": "Entre em contato",
+    "descricao": "Se desejar <strong>tirar dúvidas, pedir um orçamento ou marcar uma reunião</strong> sobre algum serviço, <strong>basta preencher formulário abaixo!</strong>",
+    "form": {
+      "nome": "Nome",
+      "nomePlaceholder": "Digite seu nome",
+      "nomeMensagem": "Por favor, digite o seu nome.",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu e-mail",
+      "emailMensagem": "Por favor, digite o seu e-mail.",
+      "emailMensagemInvalido": "Por favor, digite um e-mail válido.",
+      "assunto": "Assunto",
+      "assuntoPlaceholder": "Qual assunto do contato?",
+      "mensagem": "Mensagem",
+      "mensagemPlaceholder": "Se desejar, conte um pouco mais sobre o que precisa...",
+      "enviar": "Entrar em contato",
+      "enviando": "Enviando...",
+      "sucesso": "Obrigado pelo contato! Recebi sua mensagem e retornarei em breve.",
+      "erro": "Houve um erro ao enviar a mensagem. Por favor, tente novamente mais tarde."
+    }
+  },
+  "projetos": {
+    "titulo": "Projetos",
+    "siteaurora": {
+      "nome": "Site Aurora",
+      "descricao": "Nesse projeto, fui responsável pela criação do <strong>site institucional em 3 idiomas para a Aurora Distribuidora</strong>, a única distribuidora de alumínio que utiliza inteligência artificial na América latina. O site foi desenvolvido com o objetivo de divulgar os serviços da empresa e captar parceiros por meio de um <strong>design clássico e minimalista</strong>, ressaltando os valores da organização."
+    },
+    "siteidfbrasil": {
+      "nome": "Site IDF Brasil",
+      "descricao": "Este projeto consiste na criação de um <strong>site institucional para a IDF Brasil</strong>, uma organização sem fins lucrativos que tem a missão de preservar e conservar a fauna brasileira. O site foi desenvolvido com o objetivo de <strong>divulgar as ações da organização, captar doações e promover a preservação da fauna</strong> por meio de conteúdos acessíveis e interativos."
+    },
+    "infotecav2consulting": {
+      "nome": "Infoteca V2 Consulting",
+      "descricao": "Aplicação web completa para <strong>facilitar o gerenciamento dos conteúdos gerados pelas empresas</strong>, agilizando e facilitando as atividades de comunicação interna, treinamento, execução de processos e monitoramento do ambiente de trabalho. A Infoteca possibilita esses ganhos por meio do <strong>gerenciamento de publicações, de testes de conhecimento e de trilhas</strong>, além da restrição de publicações a grupos e cargos específicos."
+    },
+    "rparelatórioslello": {
+      "nome": "RPA - Extração de Relatórios",
+      "descricao": "Este projeto consiste na <strong>automatização da extração de relatórios de atendimentos</strong> da <strong>Lello Condomínios</strong>, uma das maiores administradoras de condomínios do Brasil. O sistema foi desenvolvido para <strong>viabilizar a extração diária de mais de 10 relatórios</strong>, de modo que nenhuma interação humana seja necessária para a execução do processo. Da extração até o envio ao <strong>bucket da AWS</strong>, tudo é feito de forma automática e programada."
+    },
+    "cybersecinfo": {
+      "nome": "Cyber Sec Info",
+      "descricao": "Este projeto é uma aplicação web chamada Cyber Security Information, desenvolvida por mim e mais 2 alunas do IFSP - Câmpus São Paulo  Pirituba. Ele <strong>oferece conteúdo teórico, tutoriais e ferramentas gratuitas para democratizar o acesso à Segurança Cibernética</strong>. A aplicação é acessível em vários dispositivos e inclui recursos de acessibilidade, como tradução para LIBRAS usando VLIBRAS. Para mais detalhes, consulte os tópicos abaixo."
+    },
+    "athenaweb": {
+      "nome": "Athena Web",
+      "descricao": "Este projeto, fruto da colaboração com a ONG e Nova Escola, visa <strong>apoiar professores da rede pública no diagnóstico da aprendizagem dos alunos e recomendar conteúdos pedagógicos</strong>. A Athena é uma aplicação web que gerencia turmas, avaliações e alunos, identificando dificuldades através dos dados das avaliações e fornecendo gráficos e planos de aulas para acompanhamento e recomendações."
+    },
+    "verMais": "Ver mais"
+  },
+  "404": {
+    "titulo": "Página não encontrada",
+    "goBackToHome": "Voltar para a página inicial"
+  }
+}

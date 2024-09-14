@@ -1,0 +1,170 @@
+{
+  "header": {
+    "sobre": "About",
+    "experiencias": "Experiences",
+    "servicos": "Services",
+    "parceiros": "Partners",
+    "projetos": "Projects",
+    "tecnologias": "Technologies",
+    "idioma": "Language"
+  },
+  "intro": {
+    "engenheiro": "Software Engineering.",
+    "ciencia": "Data science.",
+    "codigoLimpo": "Clean code and architecture.",
+    "issoNao": "This is not",
+    "meuTrabalho": "my job",
+    "issoE": "it is",
+    "minhaPaixao": "my passion."
+  },
+  "sobre": {
+    "titulo": "About",
+    "descricao": "<span>Software Engineer</span> and <span>Clean Code philosophy</span> enthusiast. My professional experience includes the development of <span>full-stack web applications</span>, encompassing back-end, front-end, and data. I have practical knowledge in Python, Django, JavaScript, TypeScript, Node.JS, Nest.js, and I work with databases such as MySQL, PostgreSQL, and SQL Server. Additionally, I have experience with <span>front-end technologies</span>, including HTML5, CSS3, and ReactJS.",
+    "entreEmContato": "Contact"
+  },
+  "experiencia": {
+    "titulo": "Experiences",
+    "tecnologiasUtilizadas": "Technologies used",
+    "cargos": {
+      "DesenvolvedordeSistemasdaInformação": "Information Systems Developer",
+      "DiretordeDesenvolvimentoWeb": "Web Development Director",
+      "EngenheirodeDados": "Data Engineer",
+      "DesenvolvedordesistemascomIA": "AI Systems Developer",
+      "DesenvolvedordeServiçoseTecnologias": "Services and Technologies Developer"
+    },
+    "descricoes": {
+      "v2consulting1": "I worked as a full-stack developer on a web application for managing knowledge bases and corporate training. The project involved creating the back-end, front-end, and database management.",
+      "inai": "I worked as a director of the web development team at the Inteli Artificial Intelligence league. I managed the back-end and front-end developers of the InAI web application, as well as the database team.",
+      "mobly": "I interned during the 2024 vacation period in Mobly's data engineering department. The activities consisted of refactoring and optimizing a post-sales message management system through Mercado Livre's API.",
+      "redegazeta": "I interned during the 2023 vacation period in Rede Gazeta's Artificial Intelligence department to build a web interface for communication between the editor and an AI trained with Gazeta's collection.",
+      "v2consulting2": "I worked in the area of providing support services to clients of the company's software, the V2 Monitoring System. In addition, I was responsible for producing code to automate repetitive tasks, such as routine report extraction."
+    }
+  },
+  "servicos": {
+    "titulo": "Services",
+    "titulos": {
+      "desenvolvimentoweb": "Web Development",
+      "projetodebancodedados": "Database Design",
+      "automaçãodeprocessos": "Process Automation",
+      "modelosdemachinelearning": "Machine Learning Models",
+      "engenhariadedados": "Data Engineering",
+      "otimizaçãodesistemas": "System Optimization"
+    },
+    "descricoes": {
+      "desenvolvimentoweb": "I perform end-to-end web system development. From interface design to back-end implementation, including server deployment.",
+      "projetodebancodedados": "I model and implement database projects for companies. From data modeling, I create and implement database management systems.",
+      "automaçãodeprocessos": "I develop automation systems for repetitive, costly, tedious, and/or complex tasks. Through scripts, I automate and enable process execution.",
+      "modelosdemachinelearning": "I apply machine learning models for various purposes, including classification, clustering, unsupervised learning, and more.",
+      "engenhariadedados": "I perform data collection and transformation to fit various company systems and projects. Whether setting up data lakes or creating data pipelines.",
+      "otimizaçãodesistemas": "I improve system performance through refactoring, bug fixes, and structural adjustments. By analyzing performance, I identify and correct bottlenecks."
+    }
+  },
+  "parceiros": {
+    "titulo": "Partners"
+  },
+  "tecnologias": {
+    "titulo": "Technologies",
+    "areas": {
+      "bancodedados": "Databases",
+      "front-end": "Front-end",
+      "back-end": "Back-end",
+      "testes": "Tests",
+      "dados": "Data",
+      "arquitetura": "Architecture"
+    },
+    "descricoes": {
+      "postgresql": "A powerful and open-source relational database known for its robustness and extensibility.",
+      "mysql": "One of the most popular relational databases, widely used for web applications.",
+      "sqlserver": "Microsoft's relational database, used for large enterprise applications.",
+      "sqlite": "A lightweight and embedded database, ideal for small applications and mobile devices.",
+      "mongodb": "A NoSQL database that stores data in JSON format, popular in agile development.",
+      "redis": "An in-memory key-value database, used for caching and high-performance support.",
+      "html": "The standard markup language for creating web pages.",
+      "css": "Used to style and format the layout of web pages.",
+      "js": "A dynamic programming language that adds interactivity to web pages.",
+      "typescript": "A JavaScript-based language that adds static types for greater code safety.",
+      "react": "A JavaScript library for building user interfaces with reusable components.",
+      "figma": "Collaborative design tool used to create prototypes and user interfaces.",
+      "vuejs": "A progressive framework for building user interfaces and web applications.",
+      "tailwindcss": "A utility-first CSS framework that makes building custom layouts easy.",
+      "nodejs": "A JavaScript runtime environment for building scalable back-end applications.",
+      "express": "A minimalist framework for Node.js, used to create APIs and web applications.",
+      "python": "A versatile and easy-to-learn programming language used for back-end and data science.",
+      "django": "A high-level web framework for Python, known for its speed and security.",
+      "adonis": "An MVC framework for Node.js that simplifies building robust web applications.",
+      "fastapi": "A modern framework for Python APIs, focused on performance and simplicity.",
+      "fastify": "A web framework for Node.js, fast and focused on efficiency and low overhead.",
+      "nest": "A progressive framework for Node.js using TypeScript to build scalable applications.",
+      "jest": "A testing framework for JavaScript, widely used for React applications.",
+      "cypress": "An end-to-end testing tool to ensure web application functionality.",
+      "postman": "API development platform that makes it easy to create and test endpoints.",
+      "selenium": "A browser automation tool used in UI testing.",
+      "pandas": "Python library for data analysis, widely used in data science.",
+      "numpy": "Python library for efficient numerical computing, the basis for many data science operations.",
+      "sklearn": "Python library for machine learning, with tools for predictive modeling.",
+      "spark": "A distributed data processing framework, used for large volumes of data.",
+      "jupyter": "An interactive notebook environment for data visualization and manipulation.",
+      "git": "A distributed version control system to track code changes.",
+      "github": "A code hosting platform that facilitates collaboration and version control.",
+      "airflow": "A workflow orchestration platform for data process automation.",
+      "aws": "Amazon's cloud services platform, used for infrastructure and hosting.",
+      "linux": "An open-source operating system widely used for servers and development.",
+      "docker": "A container platform that simplifies application development and deployment.",
+      "azure": "Microsoft's cloud platform, used for infrastructure, applications, and services.",
+      "githubactions": "A CI/CD automation tool integrated with GitHub, used for deployments and testing."
+    }
+  },
+  "contato": {
+    "titulo": "Contact",
+    "descricao": "If you want to <strong>ask questions, request a quote, or schedule a meeting</strong> about any service, <strong>just fill out the form below!</strong>",
+    "form": {
+      "nome": "Name",
+      "nomePlaceholder": "Enter your name",
+      "nomeMensagem": "Please enter your name.",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "emailMensagem": "Please enter your email.",
+      "emailMensagemInvalido": "Please enter a valid email.",
+      "assunto": "Subject",
+      "assuntoPlaceholder": "What is the subject of the contact?",
+      "mensagem": "Message",
+      "mensagemPlaceholder": "If you wish, tell me a little more about what you need...",
+      "enviar": "Contact",
+      "enviando": "Sending...",
+      "sucesso": "Thank you for contacting me! I have received your message and will get back to you shortly.",
+      "erro": "There was an error sending the message. Please try again later."
+    }
+  },
+  "projetos": {
+    "titulo": "Projects",
+    "siteaurora": {
+      "nome": "Aurora Website",
+      "descricao": "In this project, I was responsible for creating the <strong>institutional website in 3 languages for Aurora Distribuidora</strong>, the only aluminum distributor that uses artificial intelligence in Latin America. The site was developed with the aim of promoting the company's services and attracting partners through a <strong>classic and minimalist design</strong>, highlighting the organization's values."
+    },
+    "siteidfbrasil": {
+      "nome": "IDF Brasil Website",
+      "descricao": "This project consists of creating an <strong>institutional website for IDF Brasil</strong>, a non-profit organization whose mission is to preserve and conserve Brazilian fauna. The site was developed to <strong>promote the organization's actions, attract donations, and promote fauna preservation</strong> through accessible and interactive content."
+    },
+    "infotecav2consulting": {
+      "nome": "Infoteca V2 Consulting",
+      "descricao": "Complete web application to <strong>facilitate the management of content generated by companies</strong>, streamlining and facilitating internal communication activities, training, process execution, and workplace monitoring. Infoteca achieves these gains through the <strong>management of publications, knowledge tests, and learning paths</strong>, in addition to restricting publications to specific groups and roles."
+    },
+    "rparelatórioslello": {
+      "nome": "RPA Lello Reports",
+      "descricao": "This project consists of the <strong>automation of report extraction</strong> for <strong>Lello Condomínios</strong>, one of the largest condominium management companies in Brazil. The system was developed to <strong>enable the daily extraction of more than 10 reports</strong>, so that no human interaction is required for the process execution. From extraction to sending to the <strong>AWS bucket</strong>, everything is done automatically and programmatically."
+    },
+    "cybersecinfo": {
+      "nome": "Cyber Sec Info",
+      "descricao": "This project is a web application called Cyber Security Information, developed by me and two other students from IFSP - São Paulo Campus Pirituba. It <strong>offers theoretical content, tutorials, and free tools to democratize access to Cybersecurity</strong>. The application is accessible on multiple devices and includes accessibility features such as translation to LIBRAS using VLIBRAS. For more details, see the topics below."
+    },
+    "athenaweb": {
+      "nome": "Athena Web",
+      "descricao": "This project, a collaboration between Inteli and Nova Escola, aims to <strong>support public school teachers in diagnosing student learning and recommending pedagogical content</strong>. Athena is a web application that manages classes, assessments, and students, identifying difficulties through assessment data and providing charts and lesson plans for monitoring and recommendations."
+    },
+    "verMais": "See more"
+  },
+  "404": {
+    "titulo": "Page not found",
+    "goBackToHome": "Go back to the homepage"
+  }
+}

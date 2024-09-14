@@ -1,57 +1,123 @@
-@use '../../styles/variables.scss' as *;
+@use "../../styles/variables.scss" as *;
 
 .technologies {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 2rem;
-  min-height: 60.5625rem;
-  background-color: $azul-escuro;
+  height: auto;
+  background: $gradiente-6;
 
-  // o primeiro div precisa de um margin bottom de 1 rem:
-  & > div:first-child {
-    margin-bottom: 1rem;
-  }
-
-  &__area {
+  &__container ul {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 2rem;
   }
 
-  &__area__title {
-    color: $branco;
-    font-size: 1.5625rem;
-    line-height: 38px;
-    margin-bottom: 1rem;
-  }
-
-  &__area__logos {
+  &__container ul li > div:first-child {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.625rem;
     align-items: center;
-    margin-bottom: 2rem;
-    max-width: 80%;
+    width: 100%;
+    color: #bcf0f7;
+    gap: 1rem;
+    font-size: 1.28125rem;
+    font-weight: 400;
+    line-height: 31px;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
 
-    & > img {
-      transition: transform 0.2s;
+  &__highlight {
+    border-top: 1px solid $ciano-claro;
+    border-bottom: 1px solid $ciano-claro;
+    padding: 1rem 0;
+  }
+
+  &__card {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 5.5rem;
+      height: 5.5rem;
+      box-shadow: 4px -1px 14px 0px rgba(69, 179, 194, 0.4);
+      border: 1px solid;
+      position: relative;
+      border-radius: 10px;
+      transition: all 0.3s;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        border-radius: 10px;
+        padding: 2px;
+        background: linear-gradient(
+          90deg,
+          #111e44 8%,
+          #004b56 49%,
+          #153a4d 100%
+        );
+        -webkit-mask: linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+      }
+
+      img {
+        width: auto;
+        height: 1.75rem;
+        max-width: 3.5rem;
+      }
+
+      span {
+        color: rgba(230, 237, 255, 1);
+        font-weight: 200;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 4px -1px 18px 0px rgba(69, 179, 194, 0.8);
+      }
     }
 
-    & > img:hover {
-      transform: scale(1.1);
+    &__item__selected {
+      background: $gradiente-3;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     }
   }
 
-  hr {
-    width: 80%;
-    text-align: left;
-    border: 0.0625rem solid $ciano-claro;
-    margin: 0;
-  }
+  &__description {
+    margin-top: 2rem;
+    color: #d5fff7;
+    display: flex;
+    flex-direction: column;
 
-  &__area__imagem {
-    display: none;
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 100;
+      color: #fff;
+    }
   }
 }
 
@@ -61,71 +127,55 @@
     min-height: 38rem;
 
     &__container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    &__card {
+      position: absolute;
+      right: 1rem;
+      top: 0;
+      width: 68%;
+      padding: 1rem !important;
+      display: flex;
       gap: 2rem;
-      margin-top: 2rem;
-      padding: 0 10rem;
 
-      .technologies__area {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+      &__item {
+        width: 9.37rem;
+        height: 7.75rem;
+        transition: all 0.4s;
+        cursor: pointer;
 
-        &:nth-child(2n) .technologies__line {
-          display: none;
-        }
-
-        &__container {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-          gap: 1rem;
-        }
-
-        &__container_info {
-          display: flex;
-          flex-direction: column;
+        img {
+          width: auto;
+          height: 70px;
+          max-width: 102.4px;
         }
 
         span {
-          img {
-            width: 1px;
-          }
+          font-size: 16px;
+          font-weight: 100;
         }
       }
     }
 
-    &__area__imagem {
-      display: block;
-      max-height: 84px;
-      width: 84px;
+    &__highlight {
+      border-width: 20%;
+      width: 10%;
     }
 
-    &__area__title {
-      font-size: 2rem;
-      line-height: 48px;
+    &__container ul li > div:first-child {
+      width: 30%;
     }
 
-    &__area__logos {
-      gap: 1rem;
-      max-width: 100%;
-      margin-bottom: 0;
-  
-      & > img {
-        transition: transform 0.2s;
-      }
-  
-      & > img:hover {
-        transform: scale(1.1);
-      }
-    }
-
-    hr {
-      display: none;
+    &__description {
+      position: absolute;
+      bottom: 0;
+      right: 1rem;
+      width: 68%;
+      display: flex;
+      align-items: flex-start;
+      padding-left: 1rem;
     }
   }
 }

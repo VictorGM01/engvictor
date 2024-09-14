@@ -1,11 +1,17 @@
-import styles from './Intro.module.scss'
+import styles from "./Intro.module.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Intro() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.intro} id="intro">
       <p>
-        Software Engineering. <br /> Data science. <br /> Clean code and architecture. <br /> This is not <span>my job</span>, it is <span>my passion!</span>
+        {t("intro.engenheiro")} <br /> {t("intro.ciencia")} <br />{" "}
+        {t("intro.codigoLimpo")} <br /> {t("intro.issoNao")}{" "}
+        <span>{t("intro.meuTrabalho")}</span>, {t("intro.issoE")}{" "}
+        <span>{t("intro.minhaPaixao")}</span>
       </p>
     </section>
-  )
+  );
 }

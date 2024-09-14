@@ -1,4 +1,5 @@
 import styles from "./CardProject.module.scss";
+import PropTypes from "prop-types";
 
 export default function CardProject({ project }) {
   const createMarkup = (html) => {
@@ -41,3 +42,7 @@ export default function CardProject({ project }) {
     </a>
   );
 }
+
+CardProject.propTypes = {
+  project: PropTypes.object.isRequired,
+};
