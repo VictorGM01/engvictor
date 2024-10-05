@@ -137,6 +137,14 @@
   },
   "projetos": {
     "titulo": "Projetos",
+    "csbproject": {
+      "nome": "CSB Project",
+      "descricao": "Neste projeto, atuei como <strong>tech lead</strong> e desenvolvedor <strong>full stack</strong>, atuando como <strong>front-end, no back-end e administrador do sistema de banco de dados</strong>, além de gerenciar a arquitetura necessária em cloud. O CSB Project Management é uma aplicação web que <strong>facilita a gestão de projetos de consultoria da CSB</strong>, permitindo o cadastro de projetos, tarefas, colaboradores e clientes, além de gerar relatórios e gráficos para acompanhamento e tomada de decisões."
+    },
+    "managerbot": {
+      "nome": "Manager Bot V2",
+      "descricao": "Neste projeto, fui <strong>responsável pela implementação de automações RPA</strong> para a <strong>V2 Consulting</strong>. O Manager Bot é uma aplicação que automatiza o processamento e transferência de arquivos de áudio e texto para clientes específicos, utilizando regras de negócios configuráveis e controle baseado em licenças. Desenvolvido com foco em segurança, o sistema inclui <strong>múltiplos mecanismos de criptografia, autenticação multifator (MFA) e controle de acesso granular (RBAC)</strong>."
+    },
     "siteaurora": {
       "nome": "Site Aurora",
       "descricao": "Nesse projeto, fui responsável pela criação do <strong>site institucional em 3 idiomas para a Aurora Distribuidora</strong>, a única distribuidora de alumínio que utiliza inteligência artificial na América latina. O site foi desenvolvido com o objetivo de divulgar os serviços da empresa e captar parceiros por meio de um <strong>design clássico e minimalista</strong>, ressaltando os valores da organização."

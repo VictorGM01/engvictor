@@ -137,6 +137,14 @@
   },
   "projetos": {
     "titulo": "Projects",
+    "csbproject": {
+      "nome": "CSB Project",
+      "descricao": "In this project, I worked as a <strong>tech lead</strong> and <strong>full-stack developer</strong>, acting as <strong>front-end, back-end, and database system administrator</strong>, in addition to managing the necessary cloud architecture. CSB Project Management is a web application that <strong>facilitates the management of CSB consulting projects</strong>, allowing the registration of projects, tasks, collaborators, and clients, as well as generating reports and graphs for monitoring and decision-making."
+    },
+    "managerbot": {
+      "nome": "Manager Bot V2",
+      "descricao": "In this project, I was <strong>responsible for implementing RPA automations</strong> for <strong>V2 Consulting</strong>. The Manager Bot is a application that automates the processing and transfer of audio and text files for specific clients, using configurable business rules and license-based control. Developed with a focus on security, the system includes <strong>multiple encryption mechanisms, multi-factor authentication (MFA), and role-based access control (RBAC)</strong>."
+    },
     "siteaurora": {
       "nome": "Aurora Website",
       "descricao": "In this project, I was responsible for creating the <strong>institutional website in 3 languages for Aurora Distribuidora</strong>, the only aluminum distributor that uses artificial intelligence in Latin America. The site was developed with the aim of promoting the company's services and attracting partners through a <strong>classic and minimalist design</strong>, highlighting the organization's values."

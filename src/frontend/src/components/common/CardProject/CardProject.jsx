@@ -13,22 +13,23 @@ export default function CardProject({ project }) {
       target="_blank"
       rel="noreferrer"
     >
-      <div
-        className={styles.card__image}
-        style={{
-          backgroundImage: `url(${project.imagem})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      ></div>
+      <div>
+        <div
+          className={styles.card__image}
+          style={{
+            backgroundImage: `url(${project.imagem})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></div>
 
-      <div className={styles.card__description}>
-        <h3>{project.nome}</h3>
+        <div className={styles.card__description}>
+          <h3>{project.nome}</h3>
 
-        <p dangerouslySetInnerHTML={createMarkup(project.descricao)}></p>
+          <p dangerouslySetInnerHTML={createMarkup(project.descricao)}></p>
+        </div>
       </div>
-
       <div className={styles.card__infos}>
         <div>
           <img src="/calendario.svg" alt="Data" />
