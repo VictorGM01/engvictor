@@ -137,6 +137,10 @@
   },
   "projetos": {
     "titulo": "Projetos",
+    "csblandingpage": {
+      "nome": "CSB Landing Page",
+      "descricao": "Neste projeto, atuei como <strong>desenvolvedor full stack</strong> e <strong>responsável pela criação do site institucional da CSB Tech</strong>. O site foi desenvolvido com o objetivo de <strong>divulgar os serviços da empresa e captar clientes</strong>, por meio de um <strong>design moderno e responsivo</strong>, que ressalta a expertise da CSB em tecnologia e inovação."
+    },
     "csbproject": {
       "nome": "CSB Project",
       "descricao": "Neste projeto, atuei como <strong>tech lead</strong> e desenvolvedor <strong>full stack</strong>, atuando como <strong>front-end, no back-end e administrador do sistema de banco de dados</strong>, além de gerenciar a arquitetura necessária em cloud. O CSB Project Management é uma aplicação web que <strong>facilita a gestão de projetos de consultoria da CSB</strong>, permitindo o cadastro de projetos, tarefas, colaboradores e clientes, além de gerar relatórios e gráficos para acompanhamento e tomada de decisões."
