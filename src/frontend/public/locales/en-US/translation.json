@@ -137,6 +137,10 @@
   },
   "projetos": {
     "titulo": "Projects",
+    "csblandingpage": {
+      "nome": "CSB Landing Page",
+      "descricao": "In this project, I was responsible for creating the <strong>landing page for CSB Tech</strong>, a consulting company specializing in software development. The page was developed with the aim of <strong>attracting new customers and partners</strong> through a <strong>modern and responsive design</strong>, highlighting the company's services and values."
+    },
     "csbproject": {
       "nome": "CSB Project",
       "descricao": "In this project, I worked as a <strong>tech lead</strong> and <strong>full-stack developer</strong>, acting as <strong>front-end, back-end, and database system administrator</strong>, in addition to managing the necessary cloud architecture. CSB Project Management is a web application that <strong>facilitates the management of CSB consulting projects</strong>, allowing the registration of projects, tasks, collaborators, and clients, as well as generating reports and graphs for monitoring and decision-making."
