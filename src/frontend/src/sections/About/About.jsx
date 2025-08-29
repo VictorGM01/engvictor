@@ -1,6 +1,6 @@
 import Link from "../../components/common/Link/Link";
 import styles from "./About.module.scss";
-import Capa from "../../assets/images/capa.png";
+import Capa from "../../assets/images/avatar.png";
 import Email from "../../assets/icons/email.svg";
 import Github from "../../assets/icons/github.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
