@@ -34,6 +34,7 @@
     text-align: center;
     width: 9rem;
     height: 9rem;
+    border-radius: 10%;
   }
 
   &__nome {
@@ -82,6 +83,11 @@
   &__sobre span {
     color: $ciano-extra-claro;
   }
+
+  &__scratch {
+    width: 9rem;
+    height: 9rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -113,6 +119,11 @@
     &__container section img {
       height: 10rem;
       border-radius: 10%;
+    }
+
+    &__scratch {
+      width: 10rem;
+      height: 10rem;
     }
 
     &__container_perfil {

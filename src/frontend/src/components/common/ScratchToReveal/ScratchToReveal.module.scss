@@ -1,0 +1,14 @@
+.scratchToReveal {
+  position: relative;
+  user-select: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-radius: 12px;
+}

@@ -5,6 +5,7 @@ import Email from "../../assets/icons/email.svg";
 import Github from "../../assets/icons/github.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
 import Button from "../../components/common/Button/Button";
+import ScratchToReveal from "../../components/common/ScratchToReveal/ScratchToReveal";
 import { useTranslation } from "react-i18next";
 
 export default function About() {
@@ -16,7 +17,16 @@ export default function About() {
       <img src="/grafico.svg" alt="Gráfico" className={styles.about__grafico} />
       <div className={styles.about__container}>
         <section className={styles.about__container_perfil}>
-          <img src={Capa} alt="Foto de perfil" />
+          <ScratchToReveal
+            width={144}
+            height={144}
+            minScratchPercentage={60}
+            gradientColors={["#00022b", "#1f5361", "#45b3c2"]}
+            onComplete={() => console.log("Foto revelada!")}
+            className={styles.about__scratch}
+          >
+            <img src={Capa} alt="Foto de perfil" />
+          </ScratchToReveal>
           <div className={styles.about__links}>
             <p className={styles.about__nome}>Victor Gabriel Marques</p>
             <div>
