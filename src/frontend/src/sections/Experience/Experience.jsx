@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import styles from "./Experience.module.scss";
 import Link from "../../components/common/Link/Link";
 import experiences from "../../data/experiences/experiences.json";
@@ -130,7 +131,7 @@ export default function Experience() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              ‹
+              <ChevronLeft size={24} />
             </motion.button>
 
             <div className={styles.carousel__indicators}>
@@ -159,7 +160,7 @@ export default function Experience() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              ›
+              <ChevronRight size={24} />
             </motion.button>
           </div>
         </div>

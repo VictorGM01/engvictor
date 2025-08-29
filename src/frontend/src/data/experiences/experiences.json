@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "empresa": "CSB – Consulting for Small Business",
+    "empresa": "CSB Tech",
     "cargo": "IT Consultant",
     "logo": "/csb.svg",
     "descricao": "Consultoria tecnológica para PMEs, atuando em gestão ágil de projetos, coordenação técnica de equipes e desenvolvimento de soluções escaláveis. Experiência em arquitetura de sistemas, acompanhamento de qualidade e integração de práticas de CI/CD e automação para eficiência operacional.",
@@ -77,7 +77,7 @@
   },
   {
     "id": 5,
-    "empresa": "Instituto de Defesa da Fauna",
+    "empresa": "IDF Brasil",
     "cargo": "Full Stack Developer",
     "logo": "/idf-brasil.png",
     "descricao": "Desenvolvimento completo do site institucional do IDF, do design à infraestrutura. Criação de back-end em Python/Django, front-end em React/Vite e implantação em Vercel/Fly, com versionamento em GitHub.",
