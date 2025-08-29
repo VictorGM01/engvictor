@@ -29,15 +29,14 @@ export default function Experience() {
 
   const handleInteraction = () => {
     setIsPaused(true);
-    // Resume autoplay after 3 seconds of inactivity
-    setTimeout(() => setIsPaused(false), 3000);
+    setTimeout(() => setIsPaused(false), 5000);
   };
 
   useEffect(() => {
     if (!isPaused) {
       intervalRef.current = setInterval(() => {
         nextSlide();
-      }, 5000); // Change slide every 5 seconds
+      }, 15000); // Change slide every 15 seconds
     }
 
     return () => {
@@ -71,10 +70,9 @@ export default function Experience() {
                 <h2>{currentExperience.empresa}</h2>
                 <h3>
                   {t(
-                    `experiencia.cargos.${currentExperience.cargo.replace(
-                      /\s/g,
-                      ""
-                    )}`
+                    `experiencia.cargos.${currentExperience.cargo
+                      .replace(/\s/g, "")
+                      .replace(/–/g, "")}`
                   )}
                 </h3>
                 <span className={styles.card__period}>
@@ -88,11 +86,17 @@ export default function Experience() {
                 {t(
                   `experiencia.descricoes.${currentExperience.empresa
                     .replace(/\s/g, "")
+                    .replace(/–/g, "")
                     .toLowerCase()}${
-                    currentExperience.id === 1
+                    currentExperience.empresa === "V2 Consulting" &&
+                    currentExperience.id === 4
                       ? "1"
-                      : currentExperience.id === 5
+                      : currentExperience.empresa === "V2 Consulting" &&
+                        currentExperience.id === 6
                       ? "2"
+                      : currentExperience.empresa === "V2 Consulting" &&
+                        currentExperience.id === 9
+                      ? "3"
                       : ""
                   }`
                 )}

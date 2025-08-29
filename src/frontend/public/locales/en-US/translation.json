@@ -26,18 +26,25 @@
     "titulo": "Experiences",
     "tecnologiasUtilizadas": "Technologies used",
     "cargos": {
+      "FullStackDeveloper": "Full Stack Developer",
+      "ITConsultant": "IT Consultant",
+      "Back-endDeveloper": "Back-end Developer",
+      "DesenvolvedorRPA": "RPA Developer",
       "DesenvolvedordeSistemasdaInformação": "Information Systems Developer",
-      "DiretordeDesenvolvimentoWeb": "Web Development Director",
-      "EngenheirodeDados": "Data Engineer",
-      "DesenvolvedordesistemascomIA": "AI Systems Developer",
-      "DesenvolvedordeServiçoseTecnologias": "Services and Technologies Developer"
+      "DataEngineerInternship": "Data Engineer – Internship",
+      "IADeveloperInternship": "AI Developer – Internship",
+      "EstagiárioemDesenvolvimentodeServiçoseTecnologias": "Services and Technologies Development Intern"
     },
     "descricoes": {
-      "v2consulting1": "I worked as a full-stack developer on a web application for managing knowledge bases and corporate training. The project involved creating the back-end, front-end, and database management.",
-      "inai": "I worked as a director of the web development team at the Inteli Artificial Intelligence league. I managed the back-end and front-end developers of the InAI web application, as well as the database team.",
-      "mobly": "I interned during the 2024 vacation period in Mobly's data engineering department. The activities consisted of refactoring and optimizing a post-sales message management system through Mercado Livre's API.",
-      "redegazeta": "I interned during the 2023 vacation period in Rede Gazeta's Artificial Intelligence department to build a web interface for communication between the editor and an AI trained with Gazeta's collection.",
-      "v2consulting2": "I worked in the area of providing support services to clients of the company's software, the V2 Monitoring System. In addition, I was responsible for producing code to automate repetitive tasks, such as routine report extraction."
+      "solcard": "Work in fintech with focus on blockchain solutions. Responsible for end-to-end development of features, with NestJS APIs and Next.js/Tailwind interfaces, ensuring performance and scalability. Experience in digital transaction integration, external service consumption, and good Git versioning practices.",
+      "csbconsultingforsmallbusiness": "Technology consulting for SMEs, working in agile project management, technical team coordination, and scalable solution development. Experience in system architecture, quality monitoring, and integration of CI/CD practices and automation for operational efficiency.",
+      "finestsolutionsllc": "Back-end solution development with focus on RESTful APIs and data scraping systems. Work in system refactoring, ensuring better performance and scalability. Use of modern technologies and databases, with emphasis on Python, data manipulation, and good coding practices.",
+      "v2consulting1": "Implementation of the Manager Bot V2 project, an application that automates the processing and transfer of audio and text files to specific clients. Development of RPA automations, implementation of information security with encryption, MFA and RBAC, and configuration of customizable business rules.",
+      "v2consulting2": "Full-stack development of web application for knowledge base management and corporate training. Creation of back-end, front-end and database management. Use of HTML5, CSS3, JS, ReactJS, NodeJS, ExpressJS, Jest, Postman and SQL Server.",
+      "institutodedefesadafauna": "Complete development of the IDF institutional website, from design to infrastructure. Creation of Python/Django back-end, React/Vite front-end, and deployment on Vercel/Fly, with GitHub versioning.",
+      "mobly": "Refactoring and optimization of post-sales messaging systems integrated with Mercado Livre API. Building Airflow DAGs running on Databricks, using Python (pandas, requests, pyspark).",
+      "redegazeta": "Development of chatbot with Python, TensorFlow and Scikit-learn, integrated with GPT-3.5 model, for querying 10 years of journalistic archive. Implementation of web application in Node.js/Express and front-end in HTML/CSS/JS.",
+      "v2consulting3": "Automation of reports and integrations via Python (requests, pandas, smtplib, xml). Technical support to clients and development of scripts to optimize internal processes."
     }
   },
   "servicos": {
