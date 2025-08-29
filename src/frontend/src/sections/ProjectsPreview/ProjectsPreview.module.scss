@@ -16,21 +16,9 @@
     gap: 2rem;
   }
 
-  &__link {
+  &__buttonContainer {
     display: flex;
     justify-content: flex-end;
-    color: $branco;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: color .3s;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-
-    &:hover {
-      color: $ciano-claro;
-    }
   }
 }
 
@@ -44,8 +32,8 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
-    &__link {
-      justify-content: flex-start;
+    &__buttonContainer {
+      justify-content: flex-end;
     }
   }
 }

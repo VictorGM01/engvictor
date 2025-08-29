@@ -168,16 +168,6 @@
         "descricao": "Biblioteca Python para computação numérica eficiente, base para muitas operações de ciência de dados."
       },
       {
-        "nome": "Scikit-learn",
-        "src": "sklearn",
-        "descricao": "Biblioteca Python para aprendizado de máquina, com ferramentas para modelagem preditiva."
-      },
-      {
-        "nome": "Spark",
-        "src": "spark",
-        "descricao": "Framework de processamento de dados distribuído, usado para grandes volumes de dados."
-      },
-      {
         "nome": "Jupyter",
         "src": "jupyter",
         "descricao": "Ambiente de notebooks interativos para visualização e manipulação de dados."

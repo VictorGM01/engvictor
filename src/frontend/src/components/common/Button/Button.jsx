@@ -6,13 +6,19 @@ export default function Button({
   link,
   button = false,
   type = "button",
+  onClick,
+  size = "normal",
 }) {
+  const buttonClass = `${styles.button} ${styles["button-link"]} ${
+    size === "small" ? styles["button-small"] : ""
+  }`;
+
   return button ? (
-    <button type={type} className={`${styles.button} ${styles["button-link"]}`}>
+    <button type={type} className={buttonClass} onClick={onClick}>
       {nome}
     </button>
   ) : (
-    <a href={link} className={`${styles.button} ${styles["button-link"]}`}>
+    <a href={link} className={buttonClass}>
       {nome}
     </a>
   );
@@ -23,4 +29,6 @@ Button.propTypes = {
   link: PropTypes.string,
   button: PropTypes.bool,
   type: PropTypes.string,
+  onClick: PropTypes.func,
+  size: PropTypes.oneOf(["normal", "small"]),
 };

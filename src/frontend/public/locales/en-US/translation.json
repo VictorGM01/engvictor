@@ -71,6 +71,7 @@
   },
   "tecnologias": {
     "titulo": "Technologies",
+    "mostrarMais": "Show more",
     "areas": {
       "bancodedados": "Databases",
       "front-end": "Front-end",

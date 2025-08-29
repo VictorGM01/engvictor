@@ -1,5 +1,6 @@
 import styles from "./ProjectsPreview.module.scss";
 import LinkSection from "../../components/common/Link/Link";
+import Button from "../../components/common/Button/Button";
 import projects from "../../data/projects/projects.json";
 import CardProject from "../../components/common/CardProject/CardProject";
 import { useState } from "react";
@@ -39,12 +40,15 @@ export default function ProjectsPreview() {
         ))}
       </div>
       {visibleProjects < projects.length && (
-        <button
-          onClick={handleShowMore}
-          className={styles.projectsPreview__link}
-        >
-          {t("projetos.verMais")}
-        </button>
+        <div className={styles.projectsPreview__buttonContainer}>
+          <Button
+            nome={t("projetos.verMais")}
+            button={true}
+            type="button"
+            onClick={handleShowMore}
+            size="small"
+          />
+        </div>
       )}
     </section>
   );
