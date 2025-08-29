@@ -20,7 +20,7 @@ export default function About() {
           <ScratchToReveal
             width={144}
             height={144}
-            minScratchPercentage={60}
+            minScratchPercentage={90}
             gradientColors={["#00022b", "#1f5361", "#45b3c2"]}
             onComplete={() => console.log("Foto revelada!")}
             className={styles.about__scratch}
