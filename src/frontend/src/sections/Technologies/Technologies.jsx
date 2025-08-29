@@ -98,8 +98,8 @@ export default function Technologies() {
           iconSize={isMobile ? 50 : 80}
           path={true}
         >
-          {allTechnologies.filter(tech => tech.area === "Back-end").map((tech, index) => (
-            <div key={tech.nome} className={styles.technologies__techIcon}>
+          {allTechnologies.filter(tech => (tech.area === "Back-end")).map((tech, index) => (
+            <div key={index} className={styles.technologies__techIcon}>
               <img
                 src={`/${tech.src}.svg`}
                 alt={tech.nome}
@@ -135,8 +135,8 @@ export default function Technologies() {
           iconSize={isMobile ? 20 : 40}
           path={true}
         >
-          {allTechnologies.filter(tech => tech.area === "Banco de Dados").map((tech, index) => (
-            <div key={tech.nome} className={styles.technologies__techIcon}>
+          {allTechnologies.filter(tech => (tech.area === "Banco de Dados")).map((tech, index) => (
+            <div key={tech.index} className={styles.technologies__techIcon}>
               <img
                 src={`/${tech.src}.svg`}
                 alt={tech.nome}

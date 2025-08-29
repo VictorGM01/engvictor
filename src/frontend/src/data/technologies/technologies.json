@@ -78,6 +78,11 @@
         "nome": "Tailwind CSS",
         "src": "tailwindcss",
         "descricao": "Framework CSS utilitário que facilita a criação de layouts customizáveis."
+      },
+      {
+        "nome": "Next.js",
+        "src": "nextjs 1",
+        "descricao": "Framework React para construção de aplicações web modernas e escaláveis."
       }
     ]
   },
@@ -124,6 +129,11 @@
         "nome": "NestJS",
         "src": "nest",
         "descricao": "Framework progressivo para Node.js que usa TypeScript para construir aplicações escaláveis."
+      },
+      {
+        "nome": "Bun",
+        "src": "bun",
+        "descricao": "Ambiente de execução JavaScript para construir aplicações de back-end escaláveis."
       }
     ]
   },

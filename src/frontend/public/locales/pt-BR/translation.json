@@ -121,7 +121,9 @@
       "linux": "Sistema operacional open-source amplamente utilizado para servidores e desenvolvimento.",
       "docker": "Plataforma de containers que facilita o desenvolvimento e a implantação de aplicações.",
       "azure": "Plataforma de nuvem da Microsoft, usada para infraestrutura, aplicações e serviços.",
-      "githubactions": "Ferramenta de automação CI/CD integrada ao GitHub, usada para deploys e testes."
+      "githubactions": "Ferramenta de automação CI/CD integrada ao GitHub, usada para deploys e testes.",
+      "nextjs 1": "Framework React para construção de aplicações web modernas e escaláveis.",
+      "bun": "Ambiente de execução JavaScript para construir aplicações de back-end escaláveis."
     }
   },
   "contato": {

@@ -121,7 +121,9 @@
       "linux": "An open-source operating system widely used for servers and development.",
       "docker": "A container platform that simplifies application development and deployment.",
       "azure": "Microsoft's cloud platform, used for infrastructure, applications, and services.",
-      "githubactions": "A CI/CD automation tool integrated with GitHub, used for deployments and testing."
+      "githubactions": "A CI/CD automation tool integrated with GitHub, used for deployments and testing.",
+      "nextjs 1": "A React framework for building modern and scalable web applications.",
+      "bun": "A JavaScript runtime environment for building scalable back-end applications."
     }
   },
   "contato": {
