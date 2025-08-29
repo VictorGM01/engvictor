@@ -1,0 +1,43 @@
+@use "../../../styles/variables.scss" as *;
+
+.orbitPath {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.orbitCircle {
+  stroke: rgba(69, 179, 194, 0.2);
+  stroke-width: 1px;
+}
+
+.orbitingItem {
+  position: absolute;
+  display: flex;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  animation: orbit calc(var(--duration) * 1s) linear infinite;
+  transform-origin: center;
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(calc(var(--angle) * 1deg))
+      translateY(calc(var(--radius) * 1px)) 
+      rotate(calc(var(--angle) * -1deg));
+  }
+  100% {
+    transform: rotate(calc(var(--angle) * 1deg + 360deg))
+      translateY(calc(var(--radius) * 1px))
+      rotate(calc((var(--angle) * -1deg) - 360deg));
+  }
+}

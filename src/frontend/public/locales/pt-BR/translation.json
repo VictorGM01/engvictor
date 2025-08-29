@@ -71,6 +71,8 @@
   },
   "tecnologias": {
     "titulo": "Tecnologias",
+    "verDetalhes": "Ver em detalhes",
+    "ocultarDetalhes": "Ocultar detalhes",
     "mostrarMais": "Ver mais",
     "areas": {
       "bancodedados": "Banco de Dados",

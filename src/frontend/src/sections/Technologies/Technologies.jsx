@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "./Technologies.module.scss";
 import Link from "../../components/common/Link/Link";
 import Button from "../../components/common/Button/Button";
+import OrbitingCircles from "../../components/common/OrbitingCircles/OrbitingCircles";
 import technologies from "../../data/technologies/technologies.json";
 import { useTranslation } from "react-i18next";
 
@@ -52,6 +53,19 @@ function TechnologyCard({ tech }) {
 export default function Technologies() {
   const { t } = useTranslation();
   const [visibleCount, setVisibleCount] = useState(12); // 2 linhas x 6 colunas (aproximadamente)
+  const [showDetails, setShowDetails] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener('resize', checkIsMobile);
+
+    return () => window.removeEventListener('resize', checkIsMobile);
+  }, []);
 
   // Flatten all technologies from all areas into a single array
   const allTechnologies = technologies.flatMap((area) =>
@@ -68,10 +82,83 @@ export default function Technologies() {
     setVisibleCount(prev => Math.min(prev + 12, allTechnologies.length));
   };
 
+  const handleToggleDetails = () => {
+    setShowDetails(!showDetails);
+  };
+
   return (
     <section className={styles.technologies} id="technologies">
       <Link nome={t("tecnologias.titulo")} />
-      <div className={styles.technologies__container}>
+      
+      <div className={styles.technologies__orbitingContainer}>
+        {/* Órbita externa - Back-end */}
+        <OrbitingCircles
+          radius={isMobile ? 120 : 220}
+          duration={isMobile ? 30 : 40}
+          iconSize={isMobile ? 50 : 80}
+          path={true}
+        >
+          {allTechnologies.filter(tech => tech.area === "Back-end").map((tech, index) => (
+            <div key={tech.nome} className={styles.technologies__techIcon}>
+              <img
+                src={`/${tech.src}.svg`}
+                alt={tech.nome}
+                className={styles.technologies__techImage}
+              />
+            </div>
+          ))}
+        </OrbitingCircles>
+
+        {/* Órbita interna - Front-end */}
+        <OrbitingCircles
+          radius={isMobile ? 70 : 140}
+          duration={isMobile ? 20 : 25}
+          iconSize={isMobile ? 30 : 50}
+          reverse={true}
+          path={true}
+        >
+          {allTechnologies.filter(tech => tech.area === "Front-end").map((tech, index) => (
+            <div key={tech.nome} className={styles.technologies__techIcon}>
+              <img
+                src={`/${tech.src}.svg`}
+                alt={tech.nome}
+                className={styles.technologies__techImage}
+              />
+            </div>
+          ))}
+        </OrbitingCircles>
+
+        {/* Órbita central - Banco de Dados */}
+        <OrbitingCircles
+          radius={isMobile ? 35 : 70}
+          duration={isMobile ? 12 : 15}
+          iconSize={isMobile ? 20 : 40}
+          path={true}
+        >
+          {allTechnologies.filter(tech => tech.area === "Banco de Dados").map((tech, index) => (
+            <div key={tech.nome} className={styles.technologies__techIcon}>
+              <img
+                src={`/${tech.src}.svg`}
+                alt={tech.nome}
+                className={styles.technologies__techImage}
+              />
+            </div>
+          ))}
+        </OrbitingCircles>
+      </div>
+
+      <div className={styles.technologies__detailsButton}>
+        <Button
+          nome={showDetails ? t("tecnologias.ocultarDetalhes") : t("tecnologias.verDetalhes")}
+          button={true}
+          type="button"
+          onClick={handleToggleDetails}
+          size="small"
+        />
+      </div>
+
+      {showDetails && (
+        <div className={styles.technologies__container}>
         <div className={styles.technologies__grid}>
           {visibleTechnologies.map((tech) => (
             <TechnologyCard key={tech.nome} tech={tech} />
@@ -89,7 +176,8 @@ export default function Technologies() {
             />
           </div>
         )}
-      </div>
+        </div>
+      )}
     </section>
   );
 }
