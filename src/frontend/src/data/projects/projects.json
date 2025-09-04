@@ -1,7 +1,7 @@
 [
   {
     "id": 1757005099,
-    "imagem": "/prodev.png",
+    "imagem": "/prodev.webp",
     "nome": "ProDev",
     "link": "https://www.prodev.dev",
     "data": "04/09/2025",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1757004788,
-    "imagem": "/zenith.png",
+    "imagem": "/zenith.webp",
     "nome": "Zenith",
     "link": "https://www.zenplane.com.br",
     "data": "24/05/2025",
@@ -17,7 +17,7 @@
   },
   {
     "id": 1757005003,
-    "imagem": "/csb_lp.png",
+    "imagem": "/csb_lp.webp",
     "nome": "CSB Landing Page",
     "link": "https://csbtech.com.br",
     "data": "23/05/2025",
@@ -25,7 +25,7 @@
   },
   {
     "id": 1757006066,
-    "imagem": "/ravi-finance.png",
+    "imagem": "/ravi.webp",
     "nome": "Ravi Finance",
     "link": "https://www.ravi-finance.com/login",
     "data": "21/08/2025",
@@ -33,7 +33,7 @@
   },
   {
     "id": 1757005540,
-    "imagem": "/desamassai.png",
+    "imagem": "/desamassai.webp",
     "nome": "Desamassaí Ecommerce",
     "link": "https://www.desamassai.com",
     "data": "20/08/2025",
@@ -41,7 +41,7 @@
   },
   {
     "id": 1757006561,
-    "imagem": "/idfv2.png",
+    "imagem": "/idfv2.webp",
     "nome": "Site IDF Brasil V2",
     "link": "https://idfbrasil.org",
     "data": "20/06/2025",
@@ -49,7 +49,7 @@
   },
   {
     "id": 1757004604,
-    "imagem": "/bananasparadise.png",
+    "imagem": "/bananasparadise.webp",
     "nome": "Bananas Paradise",
     "link": "http://bananasparadise.com.br",
     "data": "08/06/2025",
@@ -57,7 +57,7 @@
   },
   {
     "id": 1757004018,
-    "imagem": "/seeded.png",
+    "imagem": "/seeded.webp",
     "nome": "Seeded Landing Page",
     "link": "https://seeded.com.br",
     "data": "07/11/2024",
@@ -65,7 +65,7 @@
   },
   {
     "id": 3,
-    "imagem": "/csb.png",
+    "imagem": "/csb.webp",
     "nome": "CSB Project",
     "link": "https://csbtech.com.br",
     "data": "01/10/2024",
@@ -73,7 +73,7 @@
   },
   {
     "id": 4,
-    "imagem": "/managerbot.png",
+    "imagem": "/managerbot.webp",
     "nome": "Manager Bot",
     "link": "https://v2consulting.com.br/",
     "data": "24/09/2024",
@@ -81,7 +81,7 @@
   },
   {
     "id": 5,
-    "imagem": "/aurora.png",
+    "imagem": "/aurora.webp",
     "nome": "Site Aurora",
     "link": "https://auroraimport.com.br",
     "data": "29/06/2024",
@@ -89,7 +89,7 @@
   },
   {
     "id": 6,
-    "imagem": "/idf.png",
+    "imagem": "/idf.webp",
     "nome": "Site IDF Brasil",
     "link": "https://idfbrasil.org/",
     "data": "27/05/2024",
@@ -97,7 +97,7 @@
   },
   {
     "id": 7,
-    "imagem": "/infoteca.png",
+    "imagem": "/infoteca.webp",
     "nome": "Infoteca V2 Consulting",
     "link": "https://v2consulting.com.br/",
     "data": "20/03/2024",
@@ -105,7 +105,7 @@
   },
   {
     "id": 8,
-    "imagem": "/rpa-lello.png",
+    "imagem": "/rpa-lello.webp",
     "nome": "RPA Relatórios Lello",
     "link": "https://www.lellocondominios.com.br/",
     "data": "04/03/2024",
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "imagem": "/csi.png",
+    "imagem": "/csi.webp",
     "nome": "Cyber Sec Info",
     "link": "https://github.com/VictorGM01/cyber_sec_info",
     "data": "01/01/2023",
@@ -121,7 +121,7 @@
   },
   {
     "id": 10,
-    "imagem": "/athena.png",
+    "imagem": "/athena.webp",
     "nome": "Athena Web",
     "link": "https://github.com/VictorGM01/athena",
     "data": "25/06/2023",
