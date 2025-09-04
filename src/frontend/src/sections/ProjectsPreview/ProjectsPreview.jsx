@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 export default function ProjectsPreview() {
   const { t } = useTranslation();
-  const [visibleProjects, setVisibleProjects] = useState(3);
+  const [visibleProjects, setVisibleProjects] = useState(6);
 
   const handleShowMore = () => {
     setVisibleProjects((prevVisibleProjects) =>

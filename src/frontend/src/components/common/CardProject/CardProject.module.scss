@@ -40,13 +40,12 @@
   }
 
   &__image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     width: 100%;
-    height: 9.5625rem;
+    height: 10rem;
     border-radius: 10px;
     border: 1px solid $ciano-extra-claro;
+    overflow: hidden;
 
     img {
       min-width: 80%;

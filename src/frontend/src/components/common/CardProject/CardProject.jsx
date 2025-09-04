@@ -1,5 +1,6 @@
 import styles from "./CardProject.module.scss";
 import PropTypes from "prop-types";
+import { Lens } from "../Lens/Lens";
 
 export default function CardProject({ project }) {
   const createMarkup = (html) => {
@@ -14,15 +15,26 @@ export default function CardProject({ project }) {
       rel="noreferrer"
     >
       <div>
-        <div
-          className={styles.card__image}
-          style={{
-            backgroundImage: `url(${project.imagem})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        ></div>
+        <div className={styles.card__image}>
+          <Lens
+            zoomFactor={1.6}
+            lensSize={150}
+            isStatic={false}
+            ariaLabel="Zoom Area"
+          >
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                backgroundImage: `url(${project.imagem})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                borderRadius: "10px",
+              }}
+            ></div>
+          </Lens>
+        </div>
 
         <div className={styles.card__description}>
           <h3>{project.nome}</h3>
