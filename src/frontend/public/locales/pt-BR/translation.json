@@ -149,6 +149,34 @@
   },
   "projetos": {
     "titulo": "Projetos",
+    "zenith": {
+      "nome": "Zenith",
+      "descricao": "Neste projeto, fui responsável pela <strong>ideação, design, front-end e back-end</strong>, atuando como <strong>desenvolvedor full stack</strong>. A Zenith é uma plataforma que <strong>unifica definição de metas, gerenciamento de projetos e colaboração em equipe</strong> em uma única interface intuitiva, oferecendo uma solução completa para organizações que buscam otimizar seus processos de trabalho."
+    },
+    "seededlandingpage": {
+      "nome": "Seeded Landing Page",
+      "descricao": "Neste projeto, atuei como <strong>desenvolvedor front-end</strong>, sendo <strong>responsável pela criação da landing page para a Seeded</strong>. A LP foi desenvolvida com o objetivo de <strong>divulgar os serviços da empresa e captar investidores</strong>, por meio de um <strong>design moderno e responsivo</strong>, que ressalta a premissa tecnológica e disruptiva da empresa."
+    },
+    "bananasparadise": {
+      "nome": "Bananas Paradise",
+      "descricao": "Neste projeto, atuei como <strong>desenvolvedor front-end e designer</strong>, sendo <strong>responsável pela criação do site institucional da Bananas Paradise</strong>. O site foi desenvolvido com uma abordagem <strong>conservadora e sólida</strong>, priorizando a <strong>confiabilidade e credibilidade da marca</strong> por meio de um <strong>design elegante e profissional</strong>, que transmite estabilidade e qualidade aos visitantes."
+    },
+    "prodev": {
+      "nome": "ProDev",
+      "descricao": "Neste projeto, atuei como <strong>Tech Lead e desenvolvedor full stack</strong>, sendo responsável por <strong>liderar a equipe técnica e desenvolver soluções completas</strong> para a ProDev. A empresa é especializada em <strong>Inteligência Artificial, Cybersegurança, DevOps e Engenharia de Plataformas</strong>. Minha atuação envolveu o <strong>desenvolvimento de front-end e back-end</strong>, além da <strong>coordenação técnica de projetos</strong>."
+    },
+    "desamassaíecommerce": {
+      "nome": "Desamassaí E-commerce",
+      "descricao": "Neste projeto, atuei como <strong>desenvolvedor full stack</strong>, sendo responsável pelo <strong>desenvolvimento da plataforma de e-commerce da Desamassaí</strong>. Minha atuação incluiu a <strong>configuração de gateway de pagamento, sistema de envio de e-mails, gerenciamento de produtos e pedidos</strong>, além do desenvolvimento de <strong>front-end responsivo e back-end robusto</strong>."
+    },
+    "ravifinance": {
+      "nome": "Ravi Finance",
+      "descricao": "Neste projeto, desenvolvi uma <strong>aplicação web completa para gestão financeira pessoal</strong>, atuando como <strong>desenvolvedor full stack</strong>. O Ravi Finance oferece funcionalidades de <strong>gestão de compras, visualização de dados financeiros, cálculo automático de despesas mensais e sistema de notificações inteligentes</strong>. A aplicação foi desenvolvida com foco na <strong>experiência do usuário e automação de processos financeiros</strong>."
+    },
+    "siteidfbrasilv2": {
+      "nome": "Site IDF Brasil V2",
+      "descricao": "Neste projeto, <strong>refiz completamente o site institucional da IDF Brasil</strong>, desenvolvido anteriormente em 2024. A nova versão apresenta um <strong>design mais moderno e institucional</strong>, incorporando funcionalidades avançadas como <strong>integração de vídeos, sistema de blog e conteúdos interativos</strong>. O projeto foi desenvolvido com foco na <strong>experiência do usuário aprimorada e maior engajamento</strong>."
+    },
     "csblandingpage": {
       "nome": "CSB Landing Page",
       "descricao": "Neste projeto, atuei como <strong>desenvolvedor full stack</strong> e <strong>responsável pela criação do site institucional da CSB Tech</strong>. O site foi desenvolvido com o objetivo de <strong>divulgar os serviços da empresa e captar clientes</strong>, por meio de um <strong>design moderno e responsivo</strong>, que ressalta a expertise da CSB em tecnologia e inovação."

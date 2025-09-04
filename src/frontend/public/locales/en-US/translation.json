@@ -149,6 +149,34 @@
   },
   "projetos": {
     "titulo": "Projects",
+    "zenith": {
+      "nome": "Zenith",
+      "descricao": "In this project, I was responsible for <strong>ideation, design, front-end, and back-end</strong>, acting as a <strong>full-stack developer</strong>. Zenith is a platform that <strong>unifies goal setting, project management, and team collaboration</strong> in a single intuitive interface, offering a complete solution for organizations seeking to optimize their work processes."
+    },
+    "seededlandingpage": {
+      "nome": "Seeded Landing Page",
+      "descricao": "In this project, I worked as a <strong>front-end developer</strong>, being <strong>responsible for creating the landing page for Seeded</strong>. The LP was developed with the goal of <strong>promoting the company's services and attracting investors</strong>, through a <strong>modern and responsive design</strong> that highlights the company's technological and disruptive premise."
+    },
+    "bananasparadise": {
+      "nome": "Bananas Paradise",
+      "descricao": "In this project, I worked as a <strong>front-end developer and designer</strong>, being <strong>responsible for creating the institutional website for Bananas Paradise</strong>. The site was developed with a <strong>conservative and solid approach</strong>, prioritizing <strong>brand reliability and credibility</strong> through an <strong>elegant and professional design</strong> that conveys stability and quality to visitors."
+    },
+    "prodev": {
+      "nome": "ProDev",
+      "descricao": "In this project, I worked as a <strong>Tech Lead and full stack developer</strong>, being responsible for <strong>leading the technical team and developing complete solutions</strong> for ProDev. The company specializes in <strong>Artificial Intelligence, Cybersecurity, DevOps, and Platform Engineering</strong>. My role involved <strong>front-end and back-end development</strong>, as well as <strong>technical project coordination</strong>."
+    },
+    "desamassaíecommerce": {
+      "nome": "Desamassaí E-commerce",
+      "descricao": "In this project, I worked as a <strong>full stack developer</strong>, being responsible for the <strong>development of the Desamassaí e-commerce platform</strong>. My work included <strong>payment gateway configuration, email delivery system, product and order management</strong>, as well as developing a <strong>responsive front-end and robust back-end</strong>."
+    },
+    "ravifinance": {
+      "nome": "Ravi Finance",
+      "descricao": "In this project, I developed a <strong>complete web application for personal financial management</strong>, working as a <strong>full stack developer</strong>. Ravi Finance offers features for <strong>purchase management, financial data visualization, automatic monthly expense calculation, and intelligent notification system</strong>. The application was developed with a focus on <strong>user experience and financial process automation</strong>."
+    },
+    "siteidfbrasilv2": {
+      "nome": "IDF Brasil Website V2",
+      "descricao": "In this project, I <strong>completely redesigned the IDF Brasil institutional website</strong>, previously developed in 2024. The new version features a <strong>more modern and institutional design</strong>, incorporating advanced functionalities such as <strong>video integration, blog system, and interactive content</strong>. The project was developed with a focus on <strong>enhanced user experience and greater engagement</strong>."
+    },
     "csblandingpage": {
       "nome": "CSB Landing Page",
       "descricao": "In this project, I was responsible for creating the <strong>landing page for CSB Tech</strong>, a consulting company specializing in software development. The page was developed with the aim of <strong>attracting new customers and partners</strong> through a <strong>modern and responsive design</strong>, highlighting the company's services and values."
