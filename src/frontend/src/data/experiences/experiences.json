@@ -44,7 +44,7 @@
     "empresa": "Finest Solutions LLC",
     "cargo": "Back-end Developer",
     "logo": "/finest.png",
-    "descricao": "Desenvolvimento de soluções back-end com foco em APIs RESTful e sistemas de scraping de dados. Atuação em refatoração de sistemas, garantindo maior desempenho e escalabilidade. Uso de tecnologias modernas e bancos de dados, com ênfase em Python, manipulação de dados e boas práticas de código.",
+    "descricao": "Desenvolvimento de soluções back-end com foco em APIs RESTful e sistemas de scraping de dados. Atuação em refatoração de sistemas, garantindo maior desempenho e escalabilidade. Uso de tecnologias modernas e bancos de dados, com ênfase em JavaScript, manipulação de dados e boas práticas de código.",
     "dataInicio": "dez/2024",
     "dataFim": "jul/2025",
     "tecnologias": [
