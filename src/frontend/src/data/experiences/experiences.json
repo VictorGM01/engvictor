@@ -48,7 +48,7 @@
     "dataInicio": "dez/2024",
     "dataFim": "jul/2025",
     "tecnologias": [
-      "javascript",
+      "typescript",
       "nodejs",
       "bun",
       "react",
