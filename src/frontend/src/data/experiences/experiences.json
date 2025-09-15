@@ -48,10 +48,12 @@
     "dataInicio": "dez/2024",
     "dataFim": "jul/2025",
     "tecnologias": [
+      "javascript",
+      "nodejs",
+      "bun",
+      "react",
+      "nextjs 1",
       "python",
-      "fastapi",
-      "pandas",
-      "selenium",
       "postgresql",
       "git",
       "docker"
