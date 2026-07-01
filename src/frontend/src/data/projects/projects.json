@@ -1,5 +1,13 @@
 [
   {
+    "id": 1782948164,
+    "imagem": "/ravi.webp",
+    "nome": "Ravi Finance",
+    "link": "https://www.ravi-finance.com",
+    "data": "01/07/2026",
+    "commits": "+250"
+  },
+  {
     "id": 1757005099,
     "imagem": "/prodev.webp",
     "nome": "ProDev",
@@ -22,14 +30,6 @@
     "link": "https://csbtech.com.br",
     "data": "23/05/2025",
     "commits": "+65"
-  },
-  {
-    "id": 1757006066,
-    "imagem": "/ravi.webp",
-    "nome": "Ravi Finance",
-    "link": "https://www.ravi-finance.com/login",
-    "data": "21/08/2025",
-    "commits": "+100"
   },
   {
     "id": 1757005540,
